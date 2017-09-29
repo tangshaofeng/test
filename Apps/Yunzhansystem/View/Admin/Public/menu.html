@@ -1,0 +1,20 @@
+<volist name="tree_list" id="val">
+<h3 class="f14"><i class="iconfont"></i>{$val['menu_name']}</h3>
+<ul>
+<volist name=":menu_tree($val['id'])" id="v">
+<li id="_MP{$v['id']}" class="menu-item"><a href="javascript:_MP('{$v['id']}','{:U($v['url'])}');" hidefocus="true" style="outline:none;"><i class='iconfont'>&#xe63f;</i> <span>{$v['menu_name']}</span></a></li>
+</volist>
+</ul>
+</volist>
+<script type="text/javascript">
+$(function(){
+//绑定单击事件
+$("#leftMain h3").click(function(){
+if ($(this).next('ul').is(":hidden")) {
+    $(this).next('ul').slideDown();
+} else {
+    $(this).next('ul').slideUp();
+}
+})
+})
+</script>

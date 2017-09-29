@@ -1,0 +1,30 @@
+<extend name="Public/main" />
+<block name="main">
+<div class="crumbs2">{:catpos($catid)}</div>
+<div class="category_tree pdlr15">
+    <div class="catename">{$topinfo['title']}</div>
+    <ul>
+       <volist name=":get_category($top_catid)" id="vo">
+            <li <eq name="vo['id']" value="$catid">class="active"</eq>><a href="{$vo['url']}">{$vo['title']}</a></li>
+        </volist>
+    </ul>
+</div>
+<div class="h4_bt"><span>{$category['title']}</span></div>
+<ul class="solution-ul">
+    <volist name="lists" id="vo">
+        <li>
+            <a href="{$vo['url']}"><img src="{:thumb($vo['thumb'],287,226)}" width="287" height="226" alt="{$vo['title']}"></a>
+            <span><a href="{$vo['url']}">{:msubstr($vo['title'],0,10)}</a></span>
+            <p>{:msubstr($vo['description'],0,50)}</p>
+        </li>
+    </volist>
+</ul>
+<div class="clear"></div>
+<div class="h4_bt"><span>服务案例</span></div>
+<ul class="case-ul">
+    <volist name="service_case" id="vo">
+    <li><a href="{$vo['url']}"><img src="{:thumb($vo['thumb'],280,99)}" alt="{$vo['title']}" width="280" height="99"></a><span><a href="{$vo['url']}">· {:msubstr($vo['title'],0,10)}</a></span></li>
+    </volist>
+</ul>
+<div class="clear"></div>
+</block>

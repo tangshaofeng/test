@@ -1,0 +1,27 @@
+<extend name="Public/main" />
+<block name="main">
+<div class="crumbs2">{:catpos($catid)}</div>
+<div class="category_tree pdlr15">
+    <div class="catename">{$topinfo['title']}</div>
+    <ul>
+       <volist name="service_tree" id="vo">
+            <li <eq name="vo['id']" value="$info['id']">class="active"</eq>><a href="{$vo['url']}">{$vo['title']}</a></li>
+        </volist>
+    </ul>
+</div>
+<div class="w container">
+<div class="service_view_box">
+        <h4 class="h4_bt"><span>概括</span></h4>
+        <div class="art_con">{$info['content']}</div>
+        <h4 class="h4_bt"><span>服务项目</span></h4>
+        <div class="art_con">{$info['content1']}</div>
+        <h4 class="h4_bt"><span>服务优势</span></h4>
+        <div class="art_con">{$info['content2']}</div>
+        <h4 class="h4_bt"><span>服务支撑</span></h4>
+        <div class="art_con">{$info['content3']}</div>
+        <h4 class="h4_bt"><span>我们的客户</span></h4>
+        <div class="art_con">{$info['content4']}</div>
+</div>
+</div>
+<div class="clh20"></div>
+</block>

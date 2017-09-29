@@ -1,0 +1,1162 @@
+[ 2017-04-20T01:53:47+08:00 ] 40.77.167.26 /news/view/catid/44/id/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+SQL: SHOW COLUMNS FROM `yunzhan_stats` [ RunTime:0.0007s ]
+SQL: DELETE FROM `yunzhan_stats` WHERE ( access_time < 1970-01-01 ) [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `yunzhan_category` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `yunzhan_config` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `yunzhan_pages` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `yunzhan_ads` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `yunzhan_article` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `yunzhan_links` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yunzhan_category` WHERE ( 1=1 ) ORDER BY sort asc, id asc  [ RunTime:0.0017s ]
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `yunzhan_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yunzhan_category` WHERE `pid` = 0 AND `display` = 1 AND `nav_display` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yunzhan_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yunzhan_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yunzhan_ads` WHERE `catid` = 3 AND `startdate` <= 1492624427 AND `enddate` >= 1492624427 ORDER BY sort desc, id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `yunzhan_links` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yunzhan_links` WHERE `catid` = 1 ORDER BY sort asc,id desc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yunzhan_category` WHERE `id` = 44 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `yunzhan_service` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yunzhan_service` WHERE `catid` = 6 ORDER BY sort asc,id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yunzhan_article` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+SQL: SELECT * FROM `yunzhan_category` WHERE ( 1=1 ) ORDER BY sort asc, id asc  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+SQL: SELECT * FROM `yunzhan_category` WHERE ( 1=1 ) ORDER BY sort asc, id asc  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+SQL: SELECT * FROM `yunzhan_category` WHERE ( 1=1 ) ORDER BY sort asc, id asc  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+SQL: SELECT * FROM `yunzhan_category` WHERE `pid` = 6 AND `display` = 1  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yunzhan_category` WHERE `pid` = 6 AND `display` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `yunzhan_category` WHERE `pid` = 5 AND `display` = 1  [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032844s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032893s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000523s ]
+
+[ 2017-04-20T02:33:33+08:00 ] 40.77.167.123 /pages/index/catid/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `yunzhan_stats` [ RunTime:0.0011s ]
+SQL: DELETE FROM `yunzhan_stats` WHERE ( access_time < 1970-01-01 ) [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `yunzhan_category` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `yunzhan_config` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `yunzhan_pages` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `yunzhan_ads` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `yunzhan_article` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `yunzhan_links` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yunzhan_category` WHERE ( 1=1 ) ORDER BY sort asc, id asc  [ RunTime:0.0016s ]
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined offset: 0 /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/PagesController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/PagesController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/PagesController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/PagesController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/PagesController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/PagesController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/PagesController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/PagesController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/PagesController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `yunzhan_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yunzhan_category` WHERE `pid` = 0 AND `display` = 1 AND `nav_display` = 1  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yunzhan_category` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yunzhan_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yunzhan_ads` WHERE `catid` = 3 AND `startdate` <= 1492626813 AND `enddate` >= 1492626813 ORDER BY sort desc, id asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yunzhan_links` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yunzhan_links` WHERE `catid` = 1 ORDER BY sort asc,id desc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yunzhan_category` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `yunzhan_pages` WHERE `catid` = 7 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000257s ]
+SQL: SELECT * FROM `yunzhan_category` WHERE ( 1=1 ) ORDER BY sort asc, id asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+SQL: SELECT * FROM `yunzhan_category` WHERE ( 1=1 ) ORDER BY sort asc, id asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+SQL: SELECT * FROM `yunzhan_category` WHERE `pid` = 7 AND `display` = 1  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yunzhan_category` WHERE `pid` = 6 AND `display` = 1  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yunzhan_category` WHERE `pid` = 5 AND `display` = 1  [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040366s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040431s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000602s ]
+
+[ 2017-04-20T04:05:52+08:00 ] 220.181.108.108 /Uploads/Content/2017-03-20/58cf51f8d968e_140-140.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+
+[ 2017-04-20T04:11:31+08:00 ] 123.125.71.110 /Uploads/Content/2017-03-21/58d0f2067f4b7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+
+[ 2017-04-20T04:14:02+08:00 ] 123.125.71.42 /Uploads/Content/2017-03-23/58d3379dbcfb0_82-102.JPG
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+
+[ 2017-04-20T04:14:02+08:00 ] 220.181.108.162 /Uploads/Content/2017-03-21/58d0f66a2504c_82-102.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+
+[ 2017-04-20T04:52:48+08:00 ] 220.181.108.151 /Uploads/Content/2017-03-09/58c0c8ff40280_286-246.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+
+[ 2017-04-20T04:57:55+08:00 ] 220.181.108.179 /Uploads/Content/2017-03-09/58c0bda796ac6_286-246.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+
+[ 2017-04-20T05:15:46+08:00 ] 123.125.71.54 /Uploads/Content/2017-03-22/58d224a98bfd5_82-102.JPG
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+
+[ 2017-04-20T05:15:46+08:00 ] 220.181.108.122 /Uploads/Content/2017-03-20/58cfaa4a277ee_1920-250.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+
+[ 2017-04-20T05:22:01+08:00 ] 220.181.108.167 /Uploads/Content/2017-03-22/58d223a0f41b0_192-140.JPG
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+
+[ 2017-04-20T05:26:44+08:00 ] 123.125.71.44 /Uploads/Content/2017-03-23/58d3376a717b8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+
+[ 2017-04-20T05:26:58+08:00 ] 123.125.71.103 /ueditor/php/upload/image/20170316/1489653916103026.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+
+[ 2017-04-20T05:34:33+08:00 ] 123.125.71.75 /Public/Home/images/ico2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+
+[ 2017-04-20T05:54:31+08:00 ] 220.181.108.114 /Uploads/Content/2017-03-09/58c0c7ab1fa83_286-246.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+
+[ 2017-04-20T06:12:55+08:00 ] 123.125.71.56 /Uploads/Content/2017-03-22/58d224a98bfd5.JPG
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+
+[ 2017-04-20T06:15:18+08:00 ] 123.125.71.115 /Uploads/Content/2017-03-20/58cf415b0a497_285-380.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+
+[ 2017-04-20T06:45:12+08:00 ] 220.181.108.122 /Uploads/Content/2017-03-21/58d0f55b74e48_780-558.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+
+[ 2017-04-20T06:50:10+08:00 ] 123.125.71.73 /Uploads/Content/2017-03-09/58c0c1bca1b80_286-246.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+
+[ 2017-04-20T06:52:24+08:00 ] 123.125.71.42 /ueditor/php/upload/image/20170308/1488941753556415.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+
+[ 2017-04-20T07:00:17+08:00 ] 220.181.108.169 /Uploads/Content/2017-03-21/58d0f67412bc7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+
+[ 2017-04-20T07:05:18+08:00 ] 220.181.108.120 /Uploads/Content/2017-03-16/58ca51d2b3273_1920-250.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+
+[ 2017-04-20T07:21:10+08:00 ] 220.181.108.144 /ueditor/php/upload/image/20170309/1489027617967934.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+
+[ 2017-04-20T07:21:10+08:00 ] 220.181.108.110 /Uploads/Content/2017-03-09/58c0be78cec83_286-246.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+
+[ 2017-04-20T07:26:34+08:00 ] 123.125.71.87 /Uploads/Content/2017-03-09/58c0c21c77002_286-246.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+
+[ 2017-04-20T07:34:53+08:00 ] 123.125.71.78 /Uploads/Content/2017-03-09/58c0c26be6b8a_286-246.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+
+[ 2017-04-20T07:36:53+08:00 ] 123.125.71.44 /Uploads/Content/2017-03-21/58d0f19679e60_780-558.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+
+[ 2017-04-20T07:58:33+08:00 ] 123.125.71.71 /Uploads/Content/2017-03-21/58d0f66a2504c.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+
+[ 2017-04-20T07:58:33+08:00 ] 123.125.71.86 /Uploads/Content/2017-03-22/58d23ec44296a_285-380.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+
+[ 2017-04-20T08:03:20+08:00 ] 123.125.71.82 /Uploads/Content/2017-03-22/58d2211dd0173_780-558.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+
+[ 2017-04-20T08:38:22+08:00 ] 220.181.108.163 /Uploads/Content/2017-03-22/58d23f7a5973f_285-380.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+
+[ 2017-04-20T08:51:37+08:00 ] 220.181.108.167 /Public/Home/images/ico4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+
+[ 2017-04-20T08:59:04+08:00 ] 123.125.71.105 /Uploads/Content/2017-03-21/58d0f6591028c.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+
+[ 2017-04-20T09:04:56+08:00 ] 220.181.108.146 /Uploads/Content/2017-03-21/58d0f67412bc7_82-102.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+
+[ 2017-04-20T09:11:42+08:00 ] 220.181.108.157 /Public/Home/images/ico3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+
+[ 2017-04-20T09:12:50+08:00 ] 220.181.108.184 /Public/Home/images/ico1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+
+[ 2017-04-20T09:16:03+08:00 ] 220.181.108.142 /Uploads/Content/2017-03-23/58d3376a717b8_82-102.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+
+[ 2017-04-20T09:26:37+08:00 ] 123.125.71.32 /Uploads/Content/2017-03-22/58d21416bcb57.JPG
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+
+[ 2017-04-20T09:40:21+08:00 ] 123.125.71.45 /Uploads/Content/2017-03-22/58d2249b83ab5_780-558.JPG
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+
+[ 2017-04-20T10:19:45+08:00 ] 39.155.185.30 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+
+[ 2017-04-20T10:20:08+08:00 ] 208.43.225.85 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+ERR: 无法加载控制器:Robots.txt
+
+[ 2017-04-20T10:20:12+08:00 ] 208.43.225.85 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+SQL: SHOW COLUMNS FROM `yunzhan_stats` [ RunTime:0.0136s ]
+SQL: DELETE FROM `yunzhan_stats` WHERE ( access_time < 1970-01-01 ) [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yunzhan_category` [ RunTime:0.0105s ]
+SQL: SHOW COLUMNS FROM `yunzhan_config` [ RunTime:0.0104s ]
+SQL: SHOW COLUMNS FROM `yunzhan_case` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `yunzhan_ads` [ RunTime:0.0083s ]
+SQL: SHOW COLUMNS FROM `yunzhan_article` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `yunzhan_links` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `yunzhan_category` WHERE ( 1=1 ) ORDER BY sort asc, id asc  [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `yunzhan_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yunzhan_category` WHERE `pid` = 0 AND `display` = 1 AND `nav_display` = 1  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 0 /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index:  /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 0 /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 0 /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index:  /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 0 /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 0 /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index:  /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 0 /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 0 /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index:  /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 0 /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 0 /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index:  /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 0 /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 0 /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index:  /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 0 /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 0 /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index:  /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 0 /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 0 /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index:  /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 0 /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 0 /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index:  /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 0 /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 0 /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index:  /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/IndexController.class.php 第 23 行.
+SQL: SELECT * FROM `yunzhan_category` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yunzhan_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `yunzhan_ads` WHERE `catid` = 3 AND `startdate` <= 1492654812 AND `enddate` >= 1492654812 ORDER BY sort desc, id asc  [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `yunzhan_links` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yunzhan_links` WHERE `catid` = 1 ORDER BY sort asc,id desc  [ RunTime:0.0044s ]
+SQL: SELECT * FROM `yunzhan_ads` WHERE `catid` = 1 AND `startdate` <= 1492654812 AND `enddate` >= 1492654812 ORDER BY sort desc, id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yunzhan_ads` WHERE `catid` = 2 AND `startdate` <= 1492654812 AND `enddate` >= 1492654812 ORDER BY sort desc, id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yunzhan_category` WHERE `pid` = 6 AND `display` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `yunzhan_article` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yunzhan_article` WHERE `is_recom` = 1 AND `status` = 1 AND `catid` IN ('44','45','46','6','') ORDER BY sort asc,create_time asc,id desc  [ RunTime:0.0029s ]
+SQL: SELECT * FROM `yunzhan_ads` WHERE `catid` = 6 AND `startdate` <= 1492654812 AND `enddate` >= 1492654812 ORDER BY sort desc, id asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `yunzhan_case` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`title`,`catid` FROM `yunzhan_case` WHERE `area_id` = 1 ORDER BY sort asc,id desc LIMIT 4   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`title`,`catid` FROM `yunzhan_case` WHERE `area_id` = 2 ORDER BY sort asc,id desc LIMIT 4   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title`,`catid` FROM `yunzhan_case` WHERE `area_id` = 3 ORDER BY sort asc,id desc LIMIT 4   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title`,`catid` FROM `yunzhan_case` WHERE `area_id` = 4 ORDER BY sort asc,id desc LIMIT 4   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title`,`catid` FROM `yunzhan_case` WHERE `area_id` = 5 ORDER BY sort asc,id desc LIMIT 4   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title`,`catid` FROM `yunzhan_case` WHERE `area_id` = 6 ORDER BY sort asc,id desc LIMIT 4   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title`,`catid` FROM `yunzhan_case` WHERE `area_id` = 7 ORDER BY sort asc,id desc LIMIT 4   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title`,`catid` FROM `yunzhan_case` WHERE `area_id` = 8 ORDER BY sort asc,id desc LIMIT 4   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title`,`catid` FROM `yunzhan_case` WHERE `area_id` = 9 ORDER BY sort asc,id desc LIMIT 4   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title`,`catid` FROM `yunzhan_case` WHERE `area_id` = 10 ORDER BY sort asc,id desc LIMIT 4   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+NOTIC: [8] Undefined index: alt /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Home/400c995c330f1f6ecac6b9102849eb7e.php 第 180 行.
+NOTIC: [8] Undefined index: alt /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Home/400c995c330f1f6ecac6b9102849eb7e.php 第 180 行.
+NOTIC: [8] Undefined index: alt /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Home/400c995c330f1f6ecac6b9102849eb7e.php 第 180 行.
+NOTIC: [8] Undefined index: alt /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Home/400c995c330f1f6ecac6b9102849eb7e.php 第 180 行.
+NOTIC: [8] Undefined index: alt /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Home/400c995c330f1f6ecac6b9102849eb7e.php 第 180 行.
+NOTIC: [8] Undefined variable: zhejiang_customer /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Home/400c995c330f1f6ecac6b9102849eb7e.php 第 211 行.
+NOTIC: [8] Undefined variable: shanghai_customer /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Home/400c995c330f1f6ecac6b9102849eb7e.php 第 210 行.
+NOTIC: [8] Undefined variable: jiangsu_customer /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Home/400c995c330f1f6ecac6b9102849eb7e.php 第 209 行.
+NOTIC: [8] Undefined variable: jiangxi_customer /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Home/400c995c330f1f6ecac6b9102849eb7e.php 第 208 行.
+NOTIC: [8] Undefined variable: chongqing_customer /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Home/400c995c330f1f6ecac6b9102849eb7e.php 第 207 行.
+NOTIC: [8] Undefined variable: shanxi_customer /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Home/400c995c330f1f6ecac6b9102849eb7e.php 第 206 行.
+NOTIC: [8] Undefined variable: shandong_customer /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Home/400c995c330f1f6ecac6b9102849eb7e.php 第 205 行.
+NOTIC: [8] Undefined variable: liaoning_customer /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Home/400c995c330f1f6ecac6b9102849eb7e.php 第 204 行.
+NOTIC: [8] Undefined variable: hebei_customer /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Home/400c995c330f1f6ecac6b9102849eb7e.php 第 203 行.
+NOTIC: [8] Undefined variable: beijing_customer /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Home/400c995c330f1f6ecac6b9102849eb7e.php 第 202 行.
+SQL: SELECT * FROM `yunzhan_category` WHERE `pid` = 6 AND `display` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `yunzhan_category` WHERE `pid` = 5 AND `display` = 1  [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032048s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032124s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000474s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000522s ]
+
+[ 2017-04-20T10:50:58+08:00 ] 157.55.39.192 /pages/index/catid/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+SQL: SHOW COLUMNS FROM `yunzhan_stats` [ RunTime:0.0009s ]
+SQL: DELETE FROM `yunzhan_stats` WHERE ( access_time < 1970-01-01 ) [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `yunzhan_category` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `yunzhan_config` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `yunzhan_pages` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `yunzhan_ads` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `yunzhan_article` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `yunzhan_links` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yunzhan_category` WHERE ( 1=1 ) ORDER BY sort asc, id asc  [ RunTime:0.0015s ]
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined offset: 0 /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/PagesController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/PagesController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/PagesController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/PagesController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/PagesController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/PagesController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/PagesController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/PagesController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/PagesController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `yunzhan_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yunzhan_category` WHERE `pid` = 0 AND `display` = 1 AND `nav_display` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yunzhan_category` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yunzhan_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yunzhan_ads` WHERE `catid` = 3 AND `startdate` <= 1492656658 AND `enddate` >= 1492656658 ORDER BY sort desc, id asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yunzhan_links` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yunzhan_links` WHERE `catid` = 1 ORDER BY sort asc,id desc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yunzhan_category` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `yunzhan_pages` WHERE `catid` = 5 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+SQL: SELECT * FROM `yunzhan_category` WHERE ( 1=1 ) ORDER BY sort asc, id asc  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+SQL: SELECT * FROM `yunzhan_category` WHERE ( 1=1 ) ORDER BY sort asc, id asc  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+SQL: SELECT * FROM `yunzhan_category` WHERE `pid` = 5 AND `display` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yunzhan_category` WHERE `pid` = 6 AND `display` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yunzhan_category` WHERE `pid` = 5 AND `display` = 1  [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022353s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022408s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000501s ]
+
+[ 2017-04-20T11:55:02+08:00 ] 39.155.185.30 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+SQL: SHOW COLUMNS FROM `yunzhan_stats` [ RunTime:0.0013s ]
+SQL: DELETE FROM `yunzhan_stats` WHERE ( access_time < 1970-01-01 ) [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yunzhan_category` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `yunzhan_config` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `yunzhan_case` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `yunzhan_ads` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `yunzhan_article` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `yunzhan_links` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yunzhan_category` WHERE ( 1=1 ) ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Model/CategoryModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `yunzhan_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yunzhan_category` WHERE `pid` = 0 AND `display` = 1 AND `nav_display` = 1  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 0 /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index:  /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 0 /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 0 /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index:  /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 0 /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 0 /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index:  /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 0 /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 0 /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index:  /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 0 /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 0 /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index:  /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 0 /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 0 /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index:  /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 0 /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 0 /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index:  /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 0 /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 0 /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index:  /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 0 /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 0 /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index:  /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 0 /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 0 /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index:  /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Home/Controller/IndexController.class.php 第 23 行.
+SQL: SELECT * FROM `yunzhan_category` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yunzhan_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `yunzhan_ads` WHERE `catid` = 3 AND `startdate` <= 1492660502 AND `enddate` >= 1492660502 ORDER BY sort desc, id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `yunzhan_links` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yunzhan_links` WHERE `catid` = 1 ORDER BY sort asc,id desc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yunzhan_ads` WHERE `catid` = 1 AND `startdate` <= 1492660502 AND `enddate` >= 1492660502 ORDER BY sort desc, id asc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yunzhan_ads` WHERE `catid` = 2 AND `startdate` <= 1492660502 AND `enddate` >= 1492660502 ORDER BY sort desc, id asc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yunzhan_category` WHERE `pid` = 6 AND `display` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yunzhan_article` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yunzhan_article` WHERE `is_recom` = 1 AND `status` = 1 AND `catid` IN ('44','45','46','6','') ORDER BY sort asc,create_time asc,id desc  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `yunzhan_ads` WHERE `catid` = 6 AND `startdate` <= 1492660502 AND `enddate` >= 1492660502 ORDER BY sort desc, id asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yunzhan_case` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`title`,`catid` FROM `yunzhan_case` WHERE `area_id` = 1 ORDER BY sort asc,id desc LIMIT 4   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`title`,`catid` FROM `yunzhan_case` WHERE `area_id` = 2 ORDER BY sort asc,id desc LIMIT 4   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title`,`catid` FROM `yunzhan_case` WHERE `area_id` = 3 ORDER BY sort asc,id desc LIMIT 4   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title`,`catid` FROM `yunzhan_case` WHERE `area_id` = 4 ORDER BY sort asc,id desc LIMIT 4   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title`,`catid` FROM `yunzhan_case` WHERE `area_id` = 5 ORDER BY sort asc,id desc LIMIT 4   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title`,`catid` FROM `yunzhan_case` WHERE `area_id` = 6 ORDER BY sort asc,id desc LIMIT 4   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title`,`catid` FROM `yunzhan_case` WHERE `area_id` = 7 ORDER BY sort asc,id desc LIMIT 4   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title`,`catid` FROM `yunzhan_case` WHERE `area_id` = 8 ORDER BY sort asc,id desc LIMIT 4   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title`,`catid` FROM `yunzhan_case` WHERE `area_id` = 9 ORDER BY sort asc,id desc LIMIT 4   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title`,`catid` FROM `yunzhan_case` WHERE `area_id` = 10 ORDER BY sort asc,id desc LIMIT 4   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000228s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000321s ]
+NOTIC: [8] Undefined index: alt /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Home/400c995c330f1f6ecac6b9102849eb7e.php 第 180 行.
+NOTIC: [8] Undefined index: alt /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Home/400c995c330f1f6ecac6b9102849eb7e.php 第 180 行.
+NOTIC: [8] Undefined index: alt /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Home/400c995c330f1f6ecac6b9102849eb7e.php 第 180 行.
+NOTIC: [8] Undefined index: alt /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Home/400c995c330f1f6ecac6b9102849eb7e.php 第 180 行.
+NOTIC: [8] Undefined index: alt /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Home/400c995c330f1f6ecac6b9102849eb7e.php 第 180 行.
+NOTIC: [8] Undefined variable: zhejiang_customer /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Home/400c995c330f1f6ecac6b9102849eb7e.php 第 211 行.
+NOTIC: [8] Undefined variable: shanghai_customer /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Home/400c995c330f1f6ecac6b9102849eb7e.php 第 210 行.
+NOTIC: [8] Undefined variable: jiangsu_customer /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Home/400c995c330f1f6ecac6b9102849eb7e.php 第 209 行.
+NOTIC: [8] Undefined variable: jiangxi_customer /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Home/400c995c330f1f6ecac6b9102849eb7e.php 第 208 行.
+NOTIC: [8] Undefined variable: chongqing_customer /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Home/400c995c330f1f6ecac6b9102849eb7e.php 第 207 行.
+NOTIC: [8] Undefined variable: shanxi_customer /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Home/400c995c330f1f6ecac6b9102849eb7e.php 第 206 行.
+NOTIC: [8] Undefined variable: shandong_customer /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Home/400c995c330f1f6ecac6b9102849eb7e.php 第 205 行.
+NOTIC: [8] Undefined variable: liaoning_customer /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Home/400c995c330f1f6ecac6b9102849eb7e.php 第 204 行.
+NOTIC: [8] Undefined variable: hebei_customer /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Home/400c995c330f1f6ecac6b9102849eb7e.php 第 203 行.
+NOTIC: [8] Undefined variable: beijing_customer /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Home/400c995c330f1f6ecac6b9102849eb7e.php 第 202 行.
+SQL: SELECT * FROM `yunzhan_category` WHERE `pid` = 6 AND `display` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `yunzhan_category` WHERE `pid` = 5 AND `display` = 1  [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042379s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042456s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000516s ]
+
+[ 2017-04-20T11:55:04+08:00 ] 39.155.185.30 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002368s ]
+
+[ 2017-04-20T14:53:01+08:00 ] 123.125.71.51 /Uploads/Content/2017-03-21/58d0f96ed6751_192-140.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+
+[ 2017-04-20T15:02:37+08:00 ] 220.181.108.121 /Uploads/Content/2017-03-22/58d21d4c65ef3_192-140.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+
+[ 2017-04-20T15:02:55+08:00 ] 123.125.71.97 /Uploads/Content/2017-03-20/58cfa7d934324_1920-250.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+
+[ 2017-04-20T17:41:47+08:00 ] 123.125.71.71 /Uploads/Content/2017-03-20/58cfaaa42a7d0_1920-250.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+

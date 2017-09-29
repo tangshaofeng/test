@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="__ADMIN__css/system.css">
+<link rel="stylesheet" href="__ADMIN__css/style.css">
+<link href="__ADMIN__css/table_form.css" rel="stylesheet"/>
+<link href="__ADMIN__css/reset.css" rel="stylesheet"/>
+<script type="text/javascript" charset="utf-8" src="__ADMIN__js/jquery.min.js"></script>
+<script language="javascript" type="text/javascript" src="__ADMIN__js/admin_common.js"></script>
+<script type="text/javascript" charset="utf-8" src="__ADMIN__js/Validform_v5.3.2.js"></script>
+</head>
+<body>
+<div class="pad-10">
+<div class="table-list">
+<div class="main_head">
+<h6>
+<div class="fl">收货地址</div>
+<div class="fr"><a href="javascript:history.go(-1);">返回上一页</a></div>
+</h6>
+</div>
+<table width="100%">
+        <thead>
+            <tr  width="15%">
+            <th>收货人</th>
+            <th width="15%">收货地址</th>
+            <th>详细地址</th>
+            <th width="15%">手机号码</th>
+            <th width="20%">固定电话</th>
+            <th width="20%">邮箱</th>
+            </tr>
+        </thead>
+    <tbody>
+    <volist name="list" id="val">
+    <tr>
+        <td width="15%" align="center">{$val['consignee']}</td>
+        <td width="15%" align="center">{$val['s_province']} {$val['s_city']} {$val['s_county']}</td>
+        <td align="center">{$val['s_address']}</td>
+        <td width="15%" align="center">{$val['s_mobile']}</td>
+        <td width="20%" align="center">{$val['s_telphone']}</td>
+        <td width="20%" align="center">{$val['s_email']}</td>
+    </tr>
+    </volist>
+     </tbody>
+     </table>
+</div>
+ <div id="pages" style="padding:0px; margin-right:20px;"></div>
+</div> 
+</body>
+</html>

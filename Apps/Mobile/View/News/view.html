@@ -1,0 +1,11 @@
+<extend name="Public/main" />
+<block name="main">
+<div class="crumbs2">{:catpos($catid)}</div>
+
+<div class="art_head">
+    <div class="title">{$info['title']}</div>
+    <div class="small">{:date('Y-m-d H:i:s',$info['create_time'])}</div>
+</div>
+<div class="art_con">{$info['content']}</div>
+<div class="clh20"></div>
+</block>

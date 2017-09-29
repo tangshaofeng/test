@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="stylesheet" href="__ADMIN__css/system.css">
+<link rel="stylesheet" href="__ADMIN__css/style.css">
+<link href="__ADMIN__css/table_form.css" rel="stylesheet"/>
+<link href="__ADMIN__css/reset.css" rel="stylesheet"/>
+<link href="__ADMIN__css/style.css" rel="stylesheet"/>
+<link href="__ADMIN__css/laydate.css" rel="stylesheet"/>
+<script src="__ADMIN__js/jquery-1.9.1.min.js" type="text/javascript" language="javascript"></script>
+<script type="text/javascript" charset="utf-8" src="__ADMIN__js/Validform_v5.3.2.js"></script>
+<script type="text/javascript" src="__ADMIN__js/laydate.js"></script>
+</head>
+<body>
+<div class="pad-10">
+<form enctype="multipart/form-data" method="post" action="" id="myform" name="myform" class="myform">
+<div class="main_head">
+<h6>
+<div class="fl">管理员信息</div>
+<div class="fr">
+<a href="{:U('Yunzhansystem/Admin/add')}"><em>添加管理员</em></a>
+</div>
+</h6>
+</div>
+<table class="table_form" cellspacing="0" width="100%">
+<tbody>
+    <tr>
+        <th width="100"><label class="label">用户名</label></th>
+        <td><input datatype="s1-20" errormsg="用户名至少1个字符,最多20个字符！" nullmsg="请填写用户名！" size="25" class="input-text" id="username" name="username" type="text" value="{$info['username']}" <if condition="$info['id'] eq 1">readonly="readonly"</if>><span class="Validform_checktip "></span></td>
+    </tr>
+    <tr>
+        <th width="100"><label class="label">密码</label></th>
+        <td><input <empty name="info">datatype="*6-16" nullmsg="请设置密码！" errormsg="密码范围在6~16位之间！"</empty> size="25" class="input-text" id="userpwd" name="userpwd" type="password" value="">
+        <span class="Validform_checktip "><notempty name="info">如不修改密码，则为空即可</notempty></span></td>
+    </tr>
+    <tr>
+        <th width="100"><label class="label">昵称</label></th>
+        <td><input datatype="s1-20" errormsg="昵称至少1个字符,最多20个字符！" nullmsg="请填写昵称！" size="25" class="input-text" id="nickname" name="nickname" type="text" value="{$info['nickname']}"><span class="Validform_checktip "></span></td>
+    </tr>
+    <tr>
+        <th width="100"><label class="label">性别</label></th>
+        <td><input type="radio" value="1" name="sex" class="mr5" <eq name="info['sex']" value="1">checked</eq>>男&nbsp;&nbsp;
+            <input type="radio" value="2" name="sex" class="mr5  ml15" <eq name="info['sex']" value="2">checked</eq>>女
+        <span class="Validform_checktip "></span></td>
+    </tr>
+    <tr>
+        <th width="100"><label class="label">出生年月</label></th>
+        <td>
+        <input type="text" class="input-text laydate-icon" style="width: 280px;" value="{$info['birthday']|default=date('Y年m月d日',time())}" id="birthday" name="birthday" readonly="true">
+        <span class="Validform_checktip"></span>
+        </td>
+    </tr>
+    <tr>
+        <th width="100"><label class="label">VIP</label></th>
+        <td>
+        <input type="checkbox" name="is_vip" <eq name="info['is_vip']" value="1">checked="checked"</eq> value="1">
+        <eq name="info['is_vip']" value="1">邀请码：{$info['vip_code']}</eq>
+        <span class="Validform_checktip"></span>
+        </td>
+    </tr>
+    </tbody>
+    </table>
+
+<div style="margin:10px 0px 0px 10px;">
+<input type="hidden" name="uid" value="{$info['uid']|default=''}">
+<input class="submit" value=" 保存并提交 " id="dosubmit" name="dosubmit" type="submit">
+<input class="button input_out" value=" 取消 " type="reset" >
+</div>
+</form>
+</div>
+<script type="text/javascript">
+$(function(){
+    //表单验证
+     $(".myform").Validform({
+      tiptype:1
+      });
+});
+</script>
+ <script type="text/javascript">
+  var birthday = {
+      elem: '#birthday',
+      format: 'YYYY年MM月DD日',
+      min: '1900-01-01', //设定最小日期为当前日期
+      max: '2099-06-16', //最大日期
+      istime: false,
+      istoday: false,
+      choose: function(datas){
+           end.min = datas; //开始日选好后，重置结束日的最小日期
+           end.start = datas //将结束日的初始值设定为开始日
+      }
+  };
+  laydate(birthday);
+</script>
+</body>
+</html>

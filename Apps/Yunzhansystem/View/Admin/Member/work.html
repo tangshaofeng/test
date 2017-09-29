@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="__ADMIN__css/system.css">
+<link rel="stylesheet" href="__ADMIN__css/style.css">
+<link href="__ADMIN__css/table_form.css" rel="stylesheet"/>
+<link href="__ADMIN__css/reset.css" rel="stylesheet"/>
+<script type="text/javascript" charset="utf-8" src="__ADMIN__js/jquery.min.js"></script>
+<script language="javascript" type="text/javascript" src="__ADMIN__js/admin_common.js"></script>
+<script type="text/javascript" charset="utf-8" src="__ADMIN__js/Validform_v5.3.2.js"></script>
+</head>
+<body>
+<div class="pad-10">
+<div class="table-list">
+<div class="main_head">
+<h6>
+<div class="fl">作品列表</div>
+<div class="fr">
+
+</div>
+</h6>
+</div>
+<table width="100%">
+        <thead>
+            <tr>
+            <th width="5%">ID</th>
+            <th width="15%">作品编号</th>
+            <th width="15%">添加时间</th>
+            <th width="10%">操作</th>
+            </tr>
+        </thead>
+    <tbody>
+    <volist name="lists" id="val">
+    <tr>
+        <td align="center" width="5%">{$val['uid']}</td>
+        <td align="center" width="">{$val['bianhao']}</td>
+        <td align="center" width="15%">{:date('Y-m-d H:i:s',$val['create_time'])}</td>
+        <td align="center" width="10%">
+        <a href="{:U('Yunzhansystem/Member/work_edit?id='.$val['id'].'&uid='.$val['uid'])}">查看</a> | <a href="javascript:confirmurl('{:U('Yunzhansystem/Member/work_del?id='.$val['id'].'&uid='.$val['uid'])}','确认要删除 『 {$val['bianhao']} 』 吗？')">删除</a>
+        </td>
+    </tr>
+    </volist>
+     </tbody>
+     </table>
+</div>
+ <div id="pages" style="padding:0px; margin-right:20px;"></div>
+</div> 
+</body>
+</html>

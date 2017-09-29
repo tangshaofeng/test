@@ -1,0 +1,14 @@
+<extend name="Public/main" />
+<block name="main">
+<div class="crumbs2">{:catpos($catid)}</div>
+<div class="h4_bt"><span>{$category['title']}</span></div>
+<ul class="service-ul">
+    <volist name="lists" id="vo">
+        <li>
+            <a href="{$vo['url']}" title="{$vo['title']}"><img src="{:thumb($vo['thumb'],287,225)}" alt="{$vo['title']}"></a>
+            <span><a href="{$vo['url']}">{:msubstr($vo['title'],0,10)}</a></span>
+            <p>{:msubstr($vo['description'],0,50)}</p>
+        </li>
+    </volist>
+</ul>
+</block>

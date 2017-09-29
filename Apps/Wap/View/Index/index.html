@@ -1,0 +1,65 @@
+<extend name="Public/main" />
+<block name="main">
+<script src="__WAP__js/jquery.reslider.js" type="text/javascript"></script>
+<script type="text/javascript" src="__WAP__js/jquery.SuperSlide.js"></script>
+<!--banner start-->
+<div class="banner">
+  <!-- slider-->
+  <div class="slider">
+    <div class="jquery-reslider">
+    <volist name="banner" id="vo">
+      <div class="slider-block" ><a href="{$vo['url']}" title="{$vo['alt']}"><img src="{:thumb($vo['image'])}" alt=""></a></div>
+    </volist>
+      <div class="slider-direction slider-direction-next"></div>
+      <div class="slider-direction slider-direction-prev"></div>
+      <div class="slider-dots"><ul></ul></div>
+    </div>
+  </div>
+  <script>
+    $(function(){
+        $('.jquery-reslider').reSlider({
+            speed:1000,//设置轮播的高度
+            delay:5000,//设置轮播的延迟时间
+            imgCount:3,//设置轮播的图片数
+            dots:true,//设置轮播的序号点
+            autoPlay:true//设置轮播是否自动播放
+        });
+    });
+</script> 
+</div>
+<!--service start-->
+<div class="service-section w">
+    <div class="catename">主要业务板块</div>
+    <div class="service-box" style="height:650px;">
+    <volist name="service" id="vo"> 
+        <div class="box{$i}">
+        <div class="img"><a href="{$vo['url']}"><img src="{:thumb($vo['image'])}" alt="{$vo['title']}"></div>
+        <span>{$vo['title']}</span></a></div>
+    </volist>
+    </div>
+</div>
+<!--news start-->
+<div class="news-section w" >
+    <div class="catename">新闻中心</div>
+    <div class="customer-box">
+    <div class="news-box">
+    <!---->
+    <ul class="picList">
+    <volist name="index_news" id="vo">
+    <li><a href="{$vo['url']}"><img src="{:thumb($vo['thumb'],303,144)}" alt="{$vo['alt']}"></a><b><a href="{$vo['url']}">{$vo['title']}</a></b><p>{$vo['description']}</p></li>
+    </volist>
+    </ul>
+    <!---->
+    </div>
+    </div>
+</div>
+
+<div class="clear"></div>
+<!--customer start-->
+<div class="customer-section w">
+    <div class="catename">我们的客户</div>
+    <div class="customer-box">
+        <img src="__WAP__images/12_02.jpg" alt="" style="width:100%;">
+    </div>
+</div>
+</block>

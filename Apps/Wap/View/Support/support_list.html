@@ -1,0 +1,25 @@
+<extend name="Public/main" />
+<block name="main">
+<div class="crumbs2">{:catpos($catid)}</div>
+<div class="category_tree pdlr15">
+    <div class="catename">{$topinfo['title']}</div>
+    <ul>
+       <volist name=":get_category($top_catid)" id="vo">
+            <li <eq name="vo['id']" value="$catid">class="active"</eq>><a href="{$vo['url']}">{$vo['title']}</a></li>
+        </volist>
+    </ul>
+</div>
+<div class="h4_bt"><span>{$category['title']}</span></div>
+<ul class="jswd_ul">
+<volist name="jswd" id="vo">
+  <li><a href="{$vo['url']}"><img src="{:thumb($vo['thumb'],280,169)}" alt="{$vo['title']}"><span>{$vo['title']}</span></a></li>
+</volist>
+</ul>
+<div class="clear"></div>
+<div class="h4_bt"><span>下载中心</span></div>
+<ul class="download_ul">
+<volist name="jswd" id="vo">
+  <li><a href="{$vo['url']}">&gt; {$vo['title']}</a></li>
+</volist>
+</ul>
+</block>

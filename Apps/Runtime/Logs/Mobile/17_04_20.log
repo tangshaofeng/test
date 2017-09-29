@@ -1,0 +1,53 @@
+[ 2017-04-20T19:30:32+08:00 ] 127.0.0.1 /mobile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Index
+
+[ 2017-04-20T19:30:55+08:00 ] 127.0.0.1 /mobile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Index
+
+[ 2017-04-20T19:32:36+08:00 ] 127.0.0.1 /mobile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Index
+
+[ 2017-04-20T19:33:07+08:00 ] 127.0.0.1 /mobile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yunzhan_stats` [ RunTime:0.0060s ]
+SQL: DELETE FROM `yunzhan_stats` WHERE ( access_time < 1970-01-01 ) [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `yunzhan_category` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `yunzhan_config` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `yunzhan_case` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `yunzhan_ads` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `yunzhan_article` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `yunzhan_links` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `yunzhan_service` [ RunTime:0.0060s ]
+ERR: Think\Model:getAll方法不存在！
+
+[ 2017-04-20T19:33:21+08:00 ] 127.0.0.1 /mobile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+

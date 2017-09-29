@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="stylesheet" href="__ADMIN__css/system.css">
+<link href="__ADMIN__css/table_form.css" rel="stylesheet"/>
+<link href="__ADMIN__css/reset.css" rel="stylesheet"/>
+<link href="__ADMIN__css/laydate.css" rel="stylesheet"/>
+<script src="__ADMIN__js/jquery.min.js" type="text/javascript" language="javascript"></script>
+<script src="__ADMIN__js/admin_common.js" type="text/javascript" language="javascript"></script>
+<script type="text/javascript" src="__ADMIN__js/laydate.js"></script>
+</head>
+<body>
+<div class="pad-10">
+<div class="search_style">
+      <!--<div class="title_names">搜索查询</div>-->
+      <form name="searchform" action="{:U('Yunzhansystem/Article/index')}" method="post">
+      <ul class="search_content clearfix">
+       <li><label class="l_f"> 信息标题 </label><input type="text" style=" width:250px" placeholder="输入信息标题" class="text_add" name="q"></li>
+       <li><label class="l_f"> 发布时间 </label><input style=" margin-left:10px;" id="start_time" name="start_time" class="inline laydate-icon" readonly="readonly"> - <input style=" margin-left:10px;" id="end_time" name="end_time" class="inline laydate-icon" readonly="readonly"></li>
+       <li style="width:90px;"><button class="btn_search" type="button" onclick="searchform.action='{:U('Yunzhansystem/Article/index')}';searchform.submit();"><i class="icon-search"></i>查 询</button></li>
+      </ul>
+      </form>
+      <script type="text/javascript">
+          var start = {
+              elem: '#start_time',
+              format: 'YYYY-MM-DD',
+              min: '1900-01-01', //设定最小日期为当前日期
+              max: '2099-06-16', //最大日期
+              istime: true,
+              istoday: false,
+              choose: function(datas){
+                   end.min = datas; //开始日选好后，重置结束日的最小日期
+                   end.start = datas //将结束日的初始值设定为开始日
+              }
+          };
+
+          var end = {
+              elem: '#end_time',
+              format: 'YYYY-MM-DD',
+              min: '1900-01-01',
+              max: '2099-06-16',
+              istime: true,
+              istoday: false,
+              choose: function(datas){
+                  start.max = datas; //结束日选好后，充值开始日的最大日期
+              }
+          };
+          laydate(start);
+          laydate(end);
+      </script>
+</div>
+
+<form name="myform" id="myform" action="" method="post">
+<div class="quick_btn clearfix">
+<div class="pad-20">
+       <span class="l_f">
+       <label for="check_box">全选/取消</label>
+        <a class="btn-warning " title="排序" href="javascript:void(0);" onclick="myform.action='{:U('Yunzhansystem/Article/more_del?status=1')}';myform.submit();">排序</a>
+        <a class="btn-danger" title="批量删除" href="javascript:void(0)" onclick="myform.action='{:U('Yunzhansystem/Article/more_del?status=2')}';myform.submit();">批量删除</a>
+        <a class="btn-info " title="推荐" href="javascript:void(0);" onclick="myform.action='{:U('Yunzhansystem/Article/more_del?status=3')}';myform.submit();">推荐</a>
+        <a class="btn-success " title="取消推荐" href="javascript:void(0);" onclick="myform.action='{:U('Yunzhansystem/Article/more_del?status=4')}';myform.submit();">取消推荐</a>
+        <a class="btn-warning " title="审核" href="javascript:void(0);" onclick="myform.action='{:U('Yunzhansystem/Article/more_del?status=5')}';myform.submit();">审核</a>
+        <a class="btn-info " title="取消审核" href="javascript:void(0);" onclick="myform.action='{:U('Yunzhansystem/Article/more_del?status=6')}';myform.submit();">取消审核</a>
+        <a class="btn-warning " title="添加信息" href="{:U('Yunzhansystem/Article/add')}" >添加信息</a>
+       </span>
+       <span class="r_f">共：<b> {$M_count} </b> 条信息</span>
+</div>
+</div>
+
+<div class="table-list">
+<div class="main_head">
+<h6>
+<div class="fl">信息列表&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前筛选分类：{$catename}</div>
+<div class="fr">
+<a href="{:U('Yunzhansystem/Article/add')}"><em>添加信息</em></a>
+</div>
+</h6>
+</div>
+
+<table width="100%">
+<thead>
+<tr>
+    <th width="26" align="center"><input type="checkbox" value="" id="check_box" onclick="selectall('id[]');"></th>
+    <th width="47" align="center">排序</th>
+    <th width="100" align="center">ID</th>
+    <th>标题</th>
+    <th width="100">分类</th>
+    <th width="80">审核</th>
+    <th width="118">更新时间</th>
+    <th width="100">管理操作</th>
+</tr>
+</thead>
+<tbody>
+  <volist name="list" id="val">
+        <tr>
+        <td width="26" align="center"><input type="checkbox" class="inputcheckbox " name="id[]" id="id[]" value="{$val['id']}"></td>
+        <td width="47" align="center"><input type="text" name="listorders[{$val['id']}]" size="3" value="{$val['sort']}" class="input-text-c input-text"></td>
+        <td width="100" align="center">{$val['id']}</td>
+        <td>
+        <a href="{:U('Yunzhansystem/Article/edit?id='.$val['id'])}"><span>{$val['title']}</span></a>
+        
+        <if condition="$val['is_recom'] eq 1">&nbsp;&nbsp;<span class="red">[推荐]</span></if>
+        <if condition="$val['thumb'] neq ''">&nbsp;&nbsp;<span class="blue">[图]</span></if>
+        </td>
+        <td width="100" align="center"><a href="{:U('Yunzhansystem/Article/index?catid='.$val['catid'])}">{$category[$val['catid']]['title']}</a></td>
+        <td width="80" align="center"><if condition="$val['status'] eq 1">已审核<else/><span class="red">未审核</span></if></td>
+        <td width="118" align="center">{:date('Y-m-d h:i',$val['create_time'])}</td>
+        <td width="100" align="center">
+        <!--<a href="{:U('Home/index/view?id='.$val['id'].'&catid='.$val['catid'])}" target="_blank">预览</a>-->
+
+        <a href="{:U('Yunzhansystem/Article/edit?id='.$val['id'])}">修改</a></td>
+    </tr>
+    </volist>
+             </tbody>
+     </table>
+<div id="pages">{$page}</div>
+<div style="clear:both;"></div>     
+</div>
+</form>
+
+</div>
+</body>
+</html>

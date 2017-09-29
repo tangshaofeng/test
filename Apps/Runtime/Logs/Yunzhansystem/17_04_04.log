@@ -1,0 +1,2242 @@
+[ 2017-04-04T20:04:40+08:00 ] 114.249.36.103 /yunzhansystem
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+SQL: SHOW COLUMNS FROM `yunzhan_menu` [ RunTime:0.0145s ]
+SQL: SELECT * FROM `yunzhan_menu` WHERE ( pid=0 and display=1  ) ORDER BY sort asc,id asc  [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018507s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018562s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000499s ]
+
+[ 2017-04-04T20:04:41+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Public&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `yunzhan_admin` [ RunTime:0.0172s ]
+SQL: SHOW COLUMNS FROM `yunzhan_menu` [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013532s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013609s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000785s ]
+
+[ 2017-04-04T20:04:46+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Public&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000704s ]
+SQL: SHOW COLUMNS FROM `yunzhan_admin` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `yunzhan_menu` [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000680s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000756s ]
+
+[ 2017-04-04T20:05:16+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Public&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+SQL: SHOW COLUMNS FROM `yunzhan_admin` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `yunzhan_menu` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`username`,`userpwd`,`status`,`level`,`create_time`,`root`,`last_login_time`,`last_login_ip` FROM `yunzhan_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0024s ]
+SQL: UPDATE `yunzhan_admin` SET `last_login_time`='1491307516',`last_login_ip`='114.249.36.103' WHERE ( id=1 ) [ RunTime:0.0002s ]
+
+[ 2017-04-04T20:05:16+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+SQL: SHOW COLUMNS FROM `yunzhan_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yunzhan_menu` WHERE ( pid=0 and display=1  ) ORDER BY sort asc,id asc  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009560s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000518s ]
+
+[ 2017-04-04T20:05:31+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Index&a=indexs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `yunzhan_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yunzhan_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yunzhan_article` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yunzhan_article` ORDER BY sort asc,create_time desc,id desc LIMIT 7   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+SQL: select version() as v; [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013257s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013332s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000531s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000590s ]
+
+[ 2017-04-04T20:05:31+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Public&a=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+SQL: SHOW COLUMNS FROM `yunzhan_admin` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `yunzhan_menu` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yunzhan_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: Arr_str /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Yunzhansystem/Controller/PublicController.class.php 第 91 行.
+SQL: SELECT * FROM `yunzhan_menu` WHERE ( pid=1 and display=1 ) ORDER BY sort asc,id desc  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+SQL: SHOW COLUMNS FROM `yunzhan_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yunzhan_menu` WHERE ( pid=7 and display=1 ) ORDER BY sort asc,id desc  [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018556s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018621s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000527s ]
+
+[ 2017-04-04T20:05:35+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Index&a=indexs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+SQL: SHOW COLUMNS FROM `yunzhan_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yunzhan_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `yunzhan_article` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yunzhan_article` ORDER BY sort asc,create_time desc,id desc LIMIT 7   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+SQL: select version() as v; [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007495s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007546s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000476s ]
+
+[ 2017-04-04T20:05:35+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Index&a=indexs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `yunzhan_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yunzhan_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `yunzhan_article` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yunzhan_article` ORDER BY sort asc,create_time desc,id desc LIMIT 7   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+SQL: select version() as v; [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009681s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000421s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000462s ]
+
+[ 2017-04-04T20:05:42+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Config&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+SQL: SHOW COLUMNS FROM `yunzhan_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yunzhan_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007854s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007942s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000655s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000722s ]
+
+[ 2017-04-04T20:05:52+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Public&a=menu&mid=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+SQL: SHOW COLUMNS FROM `yunzhan_admin` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `yunzhan_menu` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yunzhan_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: Arr_str /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Yunzhansystem/Controller/PublicController.class.php 第 91 行.
+SQL: SELECT * FROM `yunzhan_menu` WHERE ( pid=6 and display=1 ) ORDER BY sort asc,id desc  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+SQL: SHOW COLUMNS FROM `yunzhan_menu` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yunzhan_menu` WHERE ( pid=23 and display=1 ) ORDER BY sort asc,id desc  [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007957s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000180s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000458s ]
+
+[ 2017-04-04T20:06:01+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Public&a=menu&mid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+SQL: SHOW COLUMNS FROM `yunzhan_admin` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `yunzhan_menu` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yunzhan_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: Arr_str /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Yunzhansystem/Controller/PublicController.class.php 第 91 行.
+SQL: SELECT * FROM `yunzhan_menu` WHERE ( pid=3 and display=1 ) ORDER BY sort asc,id desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+SQL: SHOW COLUMNS FROM `yunzhan_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yunzhan_menu` WHERE ( pid=28 and display=1 ) ORDER BY sort asc,id desc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yunzhan_menu` WHERE ( pid=10 and display=1 ) ORDER BY sort asc,id desc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yunzhan_menu` WHERE ( pid=13 and display=1 ) ORDER BY sort asc,id desc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yunzhan_menu` WHERE ( pid=16 and display=1 ) ORDER BY sort asc,id desc  [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010550s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000569s ]
+
+[ 2017-04-04T20:06:04+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Category&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+SQL: SHOW COLUMNS FROM `yunzhan_category` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `yunzhan_pages` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `yunzhan_article` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`pid`,`title`,`english`,`type`,`image`,`description`,`setting`,`sort`,`lists_tpl`,`view_tpl`,`is_lower`,`is_delete`,`display`,`nav_display`,`seo_title`,`seo_keyword`,`seo_desc` FROM `yunzhan_category` ORDER BY sort asc, id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `yunzhan_category` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yunzhan_category` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013983s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014057s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000504s ]
+
+[ 2017-04-04T20:06:18+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Public&a=menu&mid=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+SQL: SHOW COLUMNS FROM `yunzhan_admin` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `yunzhan_menu` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yunzhan_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: Arr_str /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Yunzhansystem/Controller/PublicController.class.php 第 91 行.
+SQL: SELECT * FROM `yunzhan_menu` WHERE ( pid=4 and display=1 ) ORDER BY sort asc,id desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+SQL: SHOW COLUMNS FROM `yunzhan_menu` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yunzhan_menu` WHERE ( pid=20 and display=1 ) ORDER BY sort asc,id desc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yunzhan_menu` WHERE ( pid=26 and display=1 ) ORDER BY sort asc,id desc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yunzhan_menu` WHERE ( pid=18 and display=1 ) ORDER BY sort asc,id desc  [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010563s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010630s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000480s ]
+
+[ 2017-04-04T20:06:22+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Adstype&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+SQL: SHOW COLUMNS FROM `yunzhan_adstype` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `yunzhan_ads` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yunzhan_adstype` WHERE ( 1=1  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yunzhan_adstype` WHERE ( 1=1  ) ORDER BY sort asc,id desc LIMIT 0,25   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `yunzhan_adstype` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yunzhan_adstype` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+NOTIC: [8] Undefined variable: session_system_level /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/d93ff9b9c7fa58ca67b76e7a3db369a2.php 第 21 行.
+SQL: SHOW COLUMNS FROM `yunzhan_ads` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yunzhan_ads` WHERE ( catid=6 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yunzhan_ads` WHERE ( catid=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yunzhan_ads` WHERE ( catid=4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yunzhan_ads` WHERE ( catid=3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yunzhan_ads` WHERE ( catid=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yunzhan_ads` WHERE ( catid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011301s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000166s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000510s ]
+
+[ 2017-04-04T20:06:30+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Public&a=menu&mid=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+SQL: SHOW COLUMNS FROM `yunzhan_admin` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `yunzhan_menu` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yunzhan_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: Arr_str /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Yunzhansystem/Controller/PublicController.class.php 第 91 行.
+SQL: SELECT * FROM `yunzhan_menu` WHERE ( pid=6 and display=1 ) ORDER BY sort asc,id desc  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+SQL: SHOW COLUMNS FROM `yunzhan_menu` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yunzhan_menu` WHERE ( pid=23 and display=1 ) ORDER BY sort asc,id desc  [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010310s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010365s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000412s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000454s ]
+
+[ 2017-04-04T20:06:32+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Admin&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+SQL: SHOW COLUMNS FROM `yunzhan_admin` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `yunzhan_menu` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yunzhan_admin` WHERE ( status=0 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009550s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009614s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000606s ]
+
+[ 2017-04-04T20:06:33+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Config&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+SQL: SHOW COLUMNS FROM `yunzhan_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yunzhan_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017673s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017767s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000708s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000790s ]
+
+[ 2017-04-04T20:06:34+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Public&a=menu&mid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `yunzhan_admin` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `yunzhan_menu` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yunzhan_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: Arr_str /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Yunzhansystem/Controller/PublicController.class.php 第 91 行.
+SQL: SELECT * FROM `yunzhan_menu` WHERE ( pid=3 and display=1 ) ORDER BY sort asc,id desc  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+SQL: SHOW COLUMNS FROM `yunzhan_menu` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yunzhan_menu` WHERE ( pid=28 and display=1 ) ORDER BY sort asc,id desc  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `yunzhan_menu` WHERE ( pid=10 and display=1 ) ORDER BY sort asc,id desc  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `yunzhan_menu` WHERE ( pid=13 and display=1 ) ORDER BY sort asc,id desc  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `yunzhan_menu` WHERE ( pid=16 and display=1 ) ORDER BY sort asc,id desc  [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009177s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009222s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000502s ]
+
+[ 2017-04-04T20:06:40+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Pages&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+SQL: SHOW COLUMNS FROM `yunzhan_pages` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `yunzhan_category` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`pid`,`title`,`english`,`type`,`image`,`description`,`setting`,`sort`,`lists_tpl`,`view_tpl`,`is_lower`,`is_delete`,`display`,`nav_display`,`seo_title`,`seo_keyword`,`seo_desc` FROM `yunzhan_category` ORDER BY sort asc, id asc  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`pid`,`title`,`english`,`type`,`image`,`description`,`setting`,`sort`,`lists_tpl`,`view_tpl`,`is_lower`,`is_delete`,`display`,`nav_display`,`seo_title`,`seo_keyword`,`seo_desc` FROM `yunzhan_category`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Undefined variable: page /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/dd2d6f2277434bd94a60d3845fb9832f.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007215s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007262s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000168s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000523s ]
+
+[ 2017-04-04T20:09:02+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Public&a=menu&mid=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+SQL: SHOW COLUMNS FROM `yunzhan_admin` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `yunzhan_menu` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yunzhan_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: Arr_str /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Yunzhansystem/Controller/PublicController.class.php 第 91 行.
+SQL: SELECT * FROM `yunzhan_menu` WHERE ( pid=6 and display=1 ) ORDER BY sort asc,id desc  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+SQL: SHOW COLUMNS FROM `yunzhan_menu` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yunzhan_menu` WHERE ( pid=23 and display=1 ) ORDER BY sort asc,id desc  [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007952s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007999s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000171s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000497s ]
+
+[ 2017-04-04T20:09:04+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Config&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+SQL: SHOW COLUMNS FROM `yunzhan_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yunzhan_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007259s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007328s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000561s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000613s ]
+
+[ 2017-04-04T20:09:06+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Public&a=menu&mid=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+SQL: SHOW COLUMNS FROM `yunzhan_admin` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `yunzhan_menu` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yunzhan_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: Arr_str /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Yunzhansystem/Controller/PublicController.class.php 第 91 行.
+SQL: SELECT * FROM `yunzhan_menu` WHERE ( pid=4 and display=1 ) ORDER BY sort asc,id desc  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+SQL: SHOW COLUMNS FROM `yunzhan_menu` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yunzhan_menu` WHERE ( pid=20 and display=1 ) ORDER BY sort asc,id desc  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `yunzhan_menu` WHERE ( pid=26 and display=1 ) ORDER BY sort asc,id desc  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `yunzhan_menu` WHERE ( pid=18 and display=1 ) ORDER BY sort asc,id desc  [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009696s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009743s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000483s ]
+
+[ 2017-04-04T20:09:12+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Adstype&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+SQL: SHOW COLUMNS FROM `yunzhan_adstype` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `yunzhan_ads` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yunzhan_adstype` WHERE ( 1=1  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yunzhan_adstype` WHERE ( 1=1  ) ORDER BY sort asc,id desc LIMIT 0,25   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `yunzhan_adstype` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yunzhan_adstype` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+NOTIC: [8] Undefined variable: session_system_level /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/d93ff9b9c7fa58ca67b76e7a3db369a2.php 第 21 行.
+SQL: SHOW COLUMNS FROM `yunzhan_ads` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yunzhan_ads` WHERE ( catid=6 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yunzhan_ads` WHERE ( catid=5 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yunzhan_ads` WHERE ( catid=4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yunzhan_ads` WHERE ( catid=3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yunzhan_ads` WHERE ( catid=2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yunzhan_ads` WHERE ( catid=1 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013984s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014049s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000514s ]
+
+[ 2017-04-04T20:09:31+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Links&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+SQL: SHOW COLUMNS FROM `yunzhan_links` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `yunzhan_linkstype` [ RunTime:0.0072s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yunzhan_links` WHERE ( 1=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yunzhan_links` WHERE ( 1=1  ) ORDER BY sort asc,id desc LIMIT 0,25   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: catid /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Yunzhansystem/Controller/LinksController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+SQL: SELECT * FROM `yunzhan_linkstype` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `yunzhan_linkstype` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `yunzhan_linkstype` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `yunzhan_linkstype` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011020s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011073s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000569s ]
+
+[ 2017-04-04T20:09:34+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Message&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+SQL: SHOW COLUMNS FROM `yunzhan_message` [ RunTime:0.0057s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yunzhan_message` WHERE ( 1=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yunzhan_message` WHERE ( 1=1  ) ORDER BY id desc LIMIT 0,25   [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009842s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009902s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000458s ]
+
+[ 2017-04-04T20:11:11+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Public&a=menu&mid=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+SQL: SHOW COLUMNS FROM `yunzhan_admin` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `yunzhan_menu` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yunzhan_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: Arr_str /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Yunzhansystem/Controller/PublicController.class.php 第 91 行.
+SQL: SELECT * FROM `yunzhan_menu` WHERE ( pid=6 and display=1 ) ORDER BY sort asc,id desc  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+SQL: SHOW COLUMNS FROM `yunzhan_menu` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yunzhan_menu` WHERE ( pid=23 and display=1 ) ORDER BY sort asc,id desc  [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007757s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007802s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000163s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000438s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000481s ]
+
+[ 2017-04-04T20:11:13+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Public&a=menu&mid=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+SQL: SHOW COLUMNS FROM `yunzhan_admin` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `yunzhan_menu` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yunzhan_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: Arr_str /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Yunzhansystem/Controller/PublicController.class.php 第 91 行.
+SQL: SELECT * FROM `yunzhan_menu` WHERE ( pid=4 and display=1 ) ORDER BY sort asc,id desc  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+SQL: SHOW COLUMNS FROM `yunzhan_menu` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yunzhan_menu` WHERE ( pid=20 and display=1 ) ORDER BY sort asc,id desc  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `yunzhan_menu` WHERE ( pid=26 and display=1 ) ORDER BY sort asc,id desc  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `yunzhan_menu` WHERE ( pid=18 and display=1 ) ORDER BY sort asc,id desc  [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010059s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000530s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000583s ]
+
+[ 2017-04-04T20:11:17+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Public&a=menu&mid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `yunzhan_admin` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `yunzhan_menu` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yunzhan_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: Arr_str /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Yunzhansystem/Controller/PublicController.class.php 第 91 行.
+SQL: SELECT * FROM `yunzhan_menu` WHERE ( pid=1 and display=1 ) ORDER BY sort asc,id desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+SQL: SHOW COLUMNS FROM `yunzhan_menu` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yunzhan_menu` WHERE ( pid=7 and display=1 ) ORDER BY sort asc,id desc  [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008021s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008078s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000169s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000512s ]
+
+[ 2017-04-04T20:11:18+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Index&a=indexs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `yunzhan_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yunzhan_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `yunzhan_article` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yunzhan_article` ORDER BY sort asc,create_time desc,id desc LIMIT 7   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+SQL: select version() as v; [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008472s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008537s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000487s ]
+
+[ 2017-04-04T20:11:24+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Attachment&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007584s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007636s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000162s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000469s ]
+
+[ 2017-04-04T20:11:28+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Attachment&a=index&dir=VXBsb2Fkcy9Db250ZW50LzIwMTctMDMtMjI%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007561s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007613s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000477s ]
+
+[ 2017-04-04T20:11:34+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Attachment&a=index&dir=VXBsb2Fkcy9Db250ZW50LzIwMTctMDItMjc%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008788s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008840s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000161s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000683s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000767s ]
+
+[ 2017-04-04T20:11:38+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Attachment&a=index&dir=VXBsb2Fkcy9Db250ZW50LzIwMTctMDMtMjg%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008062s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008114s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000163s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000497s ]
+
+[ 2017-04-04T20:11:43+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Attachment&a=index&dir=VXBsb2Fkcy9Db250ZW50LzIwMTctMDMtMjM%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008051s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008102s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000158s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000496s ]
+
+[ 2017-04-04T20:11:48+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Attachment&a=index&dir=VXBsb2Fkcy9Db250ZW50LzIwMTctMDMtMDI%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001367s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011291s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011380s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000513s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000583s ]
+
+[ 2017-04-04T20:11:55+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Attachment&a=index&dir=VXBsb2Fkcy9Db250ZW50LzIwMTctMDMtMDE%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007310s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007360s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000157s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000504s ]
+
+[ 2017-04-04T20:11:57+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Attachment&a=index&dir=VXBsb2Fkcy9Db250ZW50
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009309s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009361s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000448s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000497s ]
+
+[ 2017-04-04T20:12:00+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Index&a=indexs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+SQL: SHOW COLUMNS FROM `yunzhan_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yunzhan_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `yunzhan_article` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yunzhan_article` ORDER BY sort asc,create_time desc,id desc LIMIT 7   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+SQL: select version() as v; [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007888s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007944s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000527s ]
+
+[ 2017-04-04T20:12:03+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Tongji&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+SQL: SHOW COLUMNS FROM `yunzhan_stats` [ RunTime:0.0009s ]
+SQL: SELECT `ip_address`,`area` FROM `yunzhan_stats` WHERE `access_time` BETWEEN 1490630400 AND 1490716799  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: lists /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Yunzhansystem/Controller/TongjiController.class.php 第 32 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Yunzhansystem/Controller/TongjiController.class.php 第 32 行.
+SQL: SELECT `ip_address`,`area` FROM `yunzhan_stats` WHERE `access_time` BETWEEN 1490716800 AND 1490803199  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: lists /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Yunzhansystem/Controller/TongjiController.class.php 第 32 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Yunzhansystem/Controller/TongjiController.class.php 第 32 行.
+SQL: SELECT `ip_address`,`area` FROM `yunzhan_stats` WHERE `access_time` BETWEEN 1490803200 AND 1490889599  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: lists /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Yunzhansystem/Controller/TongjiController.class.php 第 32 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Yunzhansystem/Controller/TongjiController.class.php 第 32 行.
+SQL: SELECT `ip_address`,`area` FROM `yunzhan_stats` WHERE `access_time` BETWEEN 1490889600 AND 1490975999  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: lists /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Yunzhansystem/Controller/TongjiController.class.php 第 32 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Yunzhansystem/Controller/TongjiController.class.php 第 32 行.
+SQL: SELECT `ip_address`,`area` FROM `yunzhan_stats` WHERE `access_time` BETWEEN 1490976000 AND 1491062399  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: lists /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Yunzhansystem/Controller/TongjiController.class.php 第 32 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Yunzhansystem/Controller/TongjiController.class.php 第 32 行.
+SQL: SELECT `ip_address`,`area` FROM `yunzhan_stats` WHERE `access_time` BETWEEN 1491062400 AND 1491148799  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: lists /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Yunzhansystem/Controller/TongjiController.class.php 第 32 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Yunzhansystem/Controller/TongjiController.class.php 第 32 行.
+SQL: SELECT `ip_address`,`area` FROM `yunzhan_stats` WHERE `access_time` BETWEEN 1491148800 AND 1491235199  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: lists /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Yunzhansystem/Controller/TongjiController.class.php 第 32 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Yunzhansystem/Controller/TongjiController.class.php 第 32 行.
+NOTIC: [8] Undefined variable: area_fenbu /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Yunzhansystem/Controller/TongjiController.class.php 第 56 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009761s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000158s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000489s ]
+
+[ 2017-04-04T20:12:12+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Index&a=indexs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+SQL: SHOW COLUMNS FROM `yunzhan_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yunzhan_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `yunzhan_article` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yunzhan_article` ORDER BY sort asc,create_time desc,id desc LIMIT 7   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+SQL: select version() as v; [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007359s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007409s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000482s ]
+
+[ 2017-04-04T20:12:20+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Public&a=menu&mid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+SQL: SHOW COLUMNS FROM `yunzhan_admin` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `yunzhan_menu` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yunzhan_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: Arr_str /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Yunzhansystem/Controller/PublicController.class.php 第 91 行.
+SQL: SELECT * FROM `yunzhan_menu` WHERE ( pid=3 and display=1 ) ORDER BY sort asc,id desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+SQL: SHOW COLUMNS FROM `yunzhan_menu` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yunzhan_menu` WHERE ( pid=28 and display=1 ) ORDER BY sort asc,id desc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yunzhan_menu` WHERE ( pid=10 and display=1 ) ORDER BY sort asc,id desc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yunzhan_menu` WHERE ( pid=13 and display=1 ) ORDER BY sort asc,id desc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yunzhan_menu` WHERE ( pid=16 and display=1 ) ORDER BY sort asc,id desc  [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011133s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011187s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000492s ]
+
+[ 2017-04-04T20:12:22+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Category&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001113s ]
+SQL: SHOW COLUMNS FROM `yunzhan_category` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `yunzhan_pages` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `yunzhan_article` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`pid`,`title`,`english`,`type`,`image`,`description`,`setting`,`sort`,`lists_tpl`,`view_tpl`,`is_lower`,`is_delete`,`display`,`nav_display`,`seo_title`,`seo_keyword`,`seo_desc` FROM `yunzhan_category` ORDER BY sort asc, id asc  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `yunzhan_category` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yunzhan_category` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015509s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015569s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000496s ]
+
+[ 2017-04-04T20:12:43+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Article&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+SQL: SHOW COLUMNS FROM `yunzhan_article` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `yunzhan_category` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yunzhan_article` WHERE ( 1=1  ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yunzhan_article` WHERE ( 1=1  ) ORDER BY sort asc,id desc LIMIT 0,15   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yunzhan_article` WHERE ( 1=1  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`pid`,`title`,`english`,`type`,`image`,`description`,`setting`,`sort`,`lists_tpl`,`view_tpl`,`is_lower`,`is_delete`,`display`,`nav_display`,`seo_title`,`seo_keyword`,`seo_desc` FROM `yunzhan_category`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+NOTIC: [8] Undefined variable: catename /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/9e25058e9ac11c0df0e059cc9d90f2be.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016803s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016887s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000545s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000624s ]
+
+[ 2017-04-04T20:12:51+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Article&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `yunzhan_article` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `yunzhan_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yunzhan_category`  [ RunTime:0.0007s ]
+SQL: SELECT `id`,`pid`,`title`,`english`,`type`,`image`,`description`,`setting`,`sort`,`lists_tpl`,`view_tpl`,`is_lower`,`is_delete`,`display`,`nav_display`,`seo_title`,`seo_keyword`,`seo_desc` FROM `yunzhan_category` WHERE ( type <> 'Pages' and type <> 'Service' ) ORDER BY sort asc, id asc  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 46 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 52 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 56 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 57 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 65 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 91 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025956s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000419s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000468s ]
+
+[ 2017-04-04T20:13:05+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Article&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `yunzhan_article` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `yunzhan_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yunzhan_category`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: images /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Yunzhansystem/Controller/ArticleController.class.php 第 62 行.
+SQL: INSERT INTO `yunzhan_article` (`catid`,`title`,`sort`,`thumb`,`description`,`create_time`,`seo_keyword`,`seo_desc`,`id`) VALUES ('39','测试1','0','','1','1491264771','','','0') [ RunTime:0.0109s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020121s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020222s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000372s ]
+
+[ 2017-04-04T20:13:06+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Article&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+SQL: SHOW COLUMNS FROM `yunzhan_article` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `yunzhan_category` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yunzhan_article` WHERE ( 1=1  ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yunzhan_article` WHERE ( 1=1  ) ORDER BY sort asc,id desc LIMIT 0,15   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yunzhan_article` WHERE ( 1=1  ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT `id`,`pid`,`title`,`english`,`type`,`image`,`description`,`setting`,`sort`,`lists_tpl`,`view_tpl`,`is_lower`,`is_delete`,`display`,`nav_display`,`seo_title`,`seo_keyword`,`seo_desc` FROM `yunzhan_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000212s ]
+NOTIC: [8] Undefined variable: catename /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/9e25058e9ac11c0df0e059cc9d90f2be.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024140s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024225s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000720s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000801s ]
+
+[ 2017-04-04T20:13:09+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Article&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+SQL: SHOW COLUMNS FROM `yunzhan_article` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `yunzhan_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yunzhan_category`  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`pid`,`title`,`english`,`type`,`image`,`description`,`setting`,`sort`,`lists_tpl`,`view_tpl`,`is_lower`,`is_delete`,`display`,`nav_display`,`seo_title`,`seo_keyword`,`seo_desc` FROM `yunzhan_category` WHERE ( type <> 'Pages' and type <> 'Service' ) ORDER BY sort asc, id asc  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 46 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 52 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 56 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 57 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 65 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 91 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011524s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011584s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000171s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000561s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000608s ]
+
+[ 2017-04-04T20:13:16+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Article&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+SQL: SHOW COLUMNS FROM `yunzhan_article` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `yunzhan_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yunzhan_category`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: images /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Yunzhansystem/Controller/ArticleController.class.php 第 62 行.
+SQL: INSERT INTO `yunzhan_article` (`catid`,`title`,`sort`,`thumb`,`description`,`create_time`,`seo_keyword`,`seo_desc`,`id`) VALUES ('2','222222','0','','2','1491264789','','','0') [ RunTime:0.0257s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006018s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006084s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000245s ]
+
+[ 2017-04-04T20:13:18+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Article&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+SQL: SHOW COLUMNS FROM `yunzhan_article` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `yunzhan_category` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yunzhan_article` WHERE ( 1=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yunzhan_article` WHERE ( 1=1  ) ORDER BY sort asc,id desc LIMIT 0,15   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yunzhan_article` WHERE ( 1=1  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`pid`,`title`,`english`,`type`,`image`,`description`,`setting`,`sort`,`lists_tpl`,`view_tpl`,`is_lower`,`is_delete`,`display`,`nav_display`,`seo_title`,`seo_keyword`,`seo_desc` FROM `yunzhan_category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+NOTIC: [8] Undefined variable: catename /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/9e25058e9ac11c0df0e059cc9d90f2be.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011498s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011548s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000181s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2017-04-04T20:13:18+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Article&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+SQL: SHOW COLUMNS FROM `yunzhan_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `yunzhan_category` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yunzhan_article` WHERE ( 1=1  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `yunzhan_article` WHERE ( 1=1  ) ORDER BY sort asc,id desc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yunzhan_article` WHERE ( 1=1  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`pid`,`title`,`english`,`type`,`image`,`description`,`setting`,`sort`,`lists_tpl`,`view_tpl`,`is_lower`,`is_delete`,`display`,`nav_display`,`seo_title`,`seo_keyword`,`seo_desc` FROM `yunzhan_category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+NOTIC: [8] Undefined variable: catename /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/9e25058e9ac11c0df0e059cc9d90f2be.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011665s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011713s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000180s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000544s ]
+
+[ 2017-04-04T20:13:20+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Article&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+SQL: SHOW COLUMNS FROM `yunzhan_article` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `yunzhan_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yunzhan_category`  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`pid`,`title`,`english`,`type`,`image`,`description`,`setting`,`sort`,`lists_tpl`,`view_tpl`,`is_lower`,`is_delete`,`display`,`nav_display`,`seo_title`,`seo_keyword`,`seo_desc` FROM `yunzhan_category` WHERE ( type <> 'Pages' and type <> 'Service' ) ORDER BY sort asc, id asc  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 46 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 52 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 56 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 57 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 65 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 91 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013282s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013347s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000482s ]
+
+[ 2017-04-04T20:13:29+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Article&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `yunzhan_article` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `yunzhan_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yunzhan_category`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: images /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Yunzhansystem/Controller/ArticleController.class.php 第 62 行.
+SQL: INSERT INTO `yunzhan_article` (`catid`,`title`,`sort`,`thumb`,`description`,`create_time`,`seo_keyword`,`seo_desc`,`id`) VALUES ('8','333','0','','333','1491264800','','','0') [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005115s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005168s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000201s ]
+
+[ 2017-04-04T20:13:30+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Article&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+SQL: SHOW COLUMNS FROM `yunzhan_article` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `yunzhan_category` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yunzhan_article` WHERE ( 1=1  ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yunzhan_article` WHERE ( 1=1  ) ORDER BY sort asc,id desc LIMIT 0,15   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yunzhan_article` WHERE ( 1=1  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`pid`,`title`,`english`,`type`,`image`,`description`,`setting`,`sort`,`lists_tpl`,`view_tpl`,`is_lower`,`is_delete`,`display`,`nav_display`,`seo_title`,`seo_keyword`,`seo_desc` FROM `yunzhan_category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+NOTIC: [8] Undefined variable: catename /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/9e25058e9ac11c0df0e059cc9d90f2be.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012261s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012316s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000512s ]
+
+[ 2017-04-04T20:13:30+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Article&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+SQL: SHOW COLUMNS FROM `yunzhan_article` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `yunzhan_category` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yunzhan_article` WHERE ( 1=1  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yunzhan_article` WHERE ( 1=1  ) ORDER BY sort asc,id desc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yunzhan_article` WHERE ( 1=1  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`pid`,`title`,`english`,`type`,`image`,`description`,`setting`,`sort`,`lists_tpl`,`view_tpl`,`is_lower`,`is_delete`,`display`,`nav_display`,`seo_title`,`seo_keyword`,`seo_desc` FROM `yunzhan_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+NOTIC: [8] Undefined variable: catename /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/9e25058e9ac11c0df0e059cc9d90f2be.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012679s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000531s ]
+
+[ 2017-04-04T20:13:32+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Article&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+SQL: SHOW COLUMNS FROM `yunzhan_article` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `yunzhan_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yunzhan_category`  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`pid`,`title`,`english`,`type`,`image`,`description`,`setting`,`sort`,`lists_tpl`,`view_tpl`,`is_lower`,`is_delete`,`display`,`nav_display`,`seo_title`,`seo_keyword`,`seo_desc` FROM `yunzhan_category` WHERE ( type <> 'Pages' and type <> 'Service' ) ORDER BY sort asc, id asc  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 46 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 52 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 56 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 57 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 65 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 91 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012909s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000662s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000731s ]
+
+[ 2017-04-04T20:13:38+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Article&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+SQL: SHOW COLUMNS FROM `yunzhan_article` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `yunzhan_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yunzhan_category`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: images /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Yunzhansystem/Controller/ArticleController.class.php 第 62 行.
+SQL: INSERT INTO `yunzhan_article` (`catid`,`title`,`sort`,`thumb`,`description`,`create_time`,`seo_keyword`,`seo_desc`,`id`) VALUES ('17','44444','0','','4','1491264812','','','0') [ RunTime:0.0200s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008493s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008596s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000303s ]
+
+[ 2017-04-04T20:13:40+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Article&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+SQL: SHOW COLUMNS FROM `yunzhan_article` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `yunzhan_category` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yunzhan_article` WHERE ( 1=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yunzhan_article` WHERE ( 1=1  ) ORDER BY sort asc,id desc LIMIT 0,15   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yunzhan_article` WHERE ( 1=1  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`pid`,`title`,`english`,`type`,`image`,`description`,`setting`,`sort`,`lists_tpl`,`view_tpl`,`is_lower`,`is_delete`,`display`,`nav_display`,`seo_title`,`seo_keyword`,`seo_desc` FROM `yunzhan_category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+NOTIC: [8] Undefined variable: catename /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/9e25058e9ac11c0df0e059cc9d90f2be.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012925s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012981s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000550s ]
+
+[ 2017-04-04T20:13:40+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Article&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+SQL: SHOW COLUMNS FROM `yunzhan_article` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `yunzhan_category` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yunzhan_article` WHERE ( 1=1  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yunzhan_article` WHERE ( 1=1  ) ORDER BY sort asc,id desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yunzhan_article` WHERE ( 1=1  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`pid`,`title`,`english`,`type`,`image`,`description`,`setting`,`sort`,`lists_tpl`,`view_tpl`,`is_lower`,`is_delete`,`display`,`nav_display`,`seo_title`,`seo_keyword`,`seo_desc` FROM `yunzhan_category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+NOTIC: [8] Undefined variable: catename /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/9e25058e9ac11c0df0e059cc9d90f2be.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012778s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000516s ]
+
+[ 2017-04-04T20:13:42+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Article&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+SQL: SHOW COLUMNS FROM `yunzhan_article` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `yunzhan_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yunzhan_category`  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`pid`,`title`,`english`,`type`,`image`,`description`,`setting`,`sort`,`lists_tpl`,`view_tpl`,`is_lower`,`is_delete`,`display`,`nav_display`,`seo_title`,`seo_keyword`,`seo_desc` FROM `yunzhan_category` WHERE ( type <> 'Pages' and type <> 'Service' ) ORDER BY sort asc, id asc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 46 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 52 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 56 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 57 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 65 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 91 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011765s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011821s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000170s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000483s ]
+
+[ 2017-04-04T20:13:52+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Article&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+SQL: SHOW COLUMNS FROM `yunzhan_article` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `yunzhan_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yunzhan_category`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: images /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Yunzhansystem/Controller/ArticleController.class.php 第 62 行.
+SQL: INSERT INTO `yunzhan_article` (`catid`,`title`,`sort`,`thumb`,`description`,`create_time`,`seo_keyword`,`seo_desc`,`id`) VALUES ('38','555','0','','5','1491264822','','','0') [ RunTime:0.0187s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006456s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006515s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000223s ]
+
+[ 2017-04-04T20:13:53+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Article&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `yunzhan_article` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `yunzhan_category` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yunzhan_article` WHERE ( 1=1  ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yunzhan_article` WHERE ( 1=1  ) ORDER BY sort asc,id desc LIMIT 0,15   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yunzhan_article` WHERE ( 1=1  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`pid`,`title`,`english`,`type`,`image`,`description`,`setting`,`sort`,`lists_tpl`,`view_tpl`,`is_lower`,`is_delete`,`display`,`nav_display`,`seo_title`,`seo_keyword`,`seo_desc` FROM `yunzhan_category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+NOTIC: [8] Undefined variable: catename /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/9e25058e9ac11c0df0e059cc9d90f2be.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015270s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015334s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000474s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000524s ]
+
+[ 2017-04-04T20:13:53+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Article&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+SQL: SHOW COLUMNS FROM `yunzhan_article` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `yunzhan_category` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yunzhan_article` WHERE ( 1=1  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yunzhan_article` WHERE ( 1=1  ) ORDER BY sort asc,id desc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yunzhan_article` WHERE ( 1=1  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`pid`,`title`,`english`,`type`,`image`,`description`,`setting`,`sort`,`lists_tpl`,`view_tpl`,`is_lower`,`is_delete`,`display`,`nav_display`,`seo_title`,`seo_keyword`,`seo_desc` FROM `yunzhan_category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+NOTIC: [8] Undefined variable: catename /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/9e25058e9ac11c0df0e059cc9d90f2be.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011382s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011432s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000530s ]
+
+[ 2017-04-04T20:13:55+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Article&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+SQL: SHOW COLUMNS FROM `yunzhan_article` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `yunzhan_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yunzhan_category`  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`pid`,`title`,`english`,`type`,`image`,`description`,`setting`,`sort`,`lists_tpl`,`view_tpl`,`is_lower`,`is_delete`,`display`,`nav_display`,`seo_title`,`seo_keyword`,`seo_desc` FROM `yunzhan_category` WHERE ( type <> 'Pages' and type <> 'Service' ) ORDER BY sort asc, id asc  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 39 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 46 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 52 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 56 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 57 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 65 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 91 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/beb058e6f36f2beaad4af3eb6de88165.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009877s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009926s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000161s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000472s ]
+
+[ 2017-04-04T20:14:04+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Article&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+SQL: SHOW COLUMNS FROM `yunzhan_article` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `yunzhan_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yunzhan_category`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: images /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Yunzhansystem/Controller/ArticleController.class.php 第 62 行.
+SQL: INSERT INTO `yunzhan_article` (`catid`,`title`,`sort`,`thumb`,`description`,`create_time`,`seo_keyword`,`seo_desc`,`id`) VALUES ('45','666','0','','666','1491264835','','','0') [ RunTime:0.0206s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006627s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006694s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000282s ]
+
+[ 2017-04-04T20:14:05+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Article&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+SQL: SHOW COLUMNS FROM `yunzhan_article` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `yunzhan_category` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yunzhan_article` WHERE ( 1=1  ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yunzhan_article` WHERE ( 1=1  ) ORDER BY sort asc,id desc LIMIT 0,15   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yunzhan_article` WHERE ( 1=1  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`pid`,`title`,`english`,`type`,`image`,`description`,`setting`,`sort`,`lists_tpl`,`view_tpl`,`is_lower`,`is_delete`,`display`,`nav_display`,`seo_title`,`seo_keyword`,`seo_desc` FROM `yunzhan_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+NOTIC: [8] Undefined variable: catename /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/9e25058e9ac11c0df0e059cc9d90f2be.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013249s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013305s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000580s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000633s ]
+
+[ 2017-04-04T20:15:10+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Category&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+SQL: SHOW COLUMNS FROM `yunzhan_category` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `yunzhan_pages` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `yunzhan_article` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`pid`,`title`,`english`,`type`,`image`,`description`,`setting`,`sort`,`lists_tpl`,`view_tpl`,`is_lower`,`is_delete`,`display`,`nav_display`,`seo_title`,`seo_keyword`,`seo_desc` FROM `yunzhan_category` ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `yunzhan_category` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yunzhan_category` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013358s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000481s ]
+
+[ 2017-04-04T20:15:15+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Category&a=add&catid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+SQL: SHOW COLUMNS FROM `yunzhan_category` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `yunzhan_pages` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `yunzhan_article` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yunzhan_category`  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yunzhan_category` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`pid`,`title`,`english`,`type`,`image`,`description`,`setting`,`sort`,`lists_tpl`,`view_tpl`,`is_lower`,`is_delete`,`display`,`nav_display`,`seo_title`,`seo_keyword`,`seo_desc` FROM `yunzhan_category` ORDER BY sort asc, id asc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/a6f387c775181363b01269813e865e3c.php 第 33 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/a6f387c775181363b01269813e865e3c.php 第 33 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/a6f387c775181363b01269813e865e3c.php 第 33 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/a6f387c775181363b01269813e865e3c.php 第 33 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/a6f387c775181363b01269813e865e3c.php 第 33 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/a6f387c775181363b01269813e865e3c.php 第 33 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/a6f387c775181363b01269813e865e3c.php 第 53 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/a6f387c775181363b01269813e865e3c.php 第 54 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/a6f387c775181363b01269813e865e3c.php 第 67 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/a6f387c775181363b01269813e865e3c.php 第 68 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/a6f387c775181363b01269813e865e3c.php 第 78 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/a6f387c775181363b01269813e865e3c.php 第 86 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/a6f387c775181363b01269813e865e3c.php 第 87 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/a6f387c775181363b01269813e865e3c.php 第 96 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/a6f387c775181363b01269813e865e3c.php 第 97 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/a6f387c775181363b01269813e865e3c.php 第 124 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/a6f387c775181363b01269813e865e3c.php 第 128 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/a6f387c775181363b01269813e865e3c.php 第 132 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018115s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018174s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000181s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000533s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000595s ]
+
+[ 2017-04-04T20:15:22+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Category&a=add&catid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+SQL: SHOW COLUMNS FROM `yunzhan_category` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `yunzhan_pages` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yunzhan_article` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yunzhan_category`  [ RunTime:0.0004s ]
+SQL: INSERT INTO `yunzhan_category` (`type`,`pid`,`title`,`sort`,`image`,`description`,`display`,`nav_display`,`seo_title`,`seo_keyword`,`seo_desc`,`lists_tpl`,`view_tpl`,`id`) VALUES (' ','5','公司简介','0','','','0','0','','','','','','0') [ RunTime:0.1209s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006813s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000339s ]
+
+[ 2017-04-04T20:15:23+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Category&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+SQL: SHOW COLUMNS FROM `yunzhan_category` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `yunzhan_pages` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `yunzhan_article` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`pid`,`title`,`english`,`type`,`image`,`description`,`setting`,`sort`,`lists_tpl`,`view_tpl`,`is_lower`,`is_delete`,`display`,`nav_display`,`seo_title`,`seo_keyword`,`seo_desc` FROM `yunzhan_category` ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index:  /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Yunzhansystem/Controller/CategoryController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `yunzhan_category` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yunzhan_category` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015776s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015843s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000548s ]
+
+[ 2017-04-04T20:15:28+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Category&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+SQL: SHOW COLUMNS FROM `yunzhan_category` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `yunzhan_pages` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `yunzhan_article` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`pid`,`title`,`english`,`type`,`image`,`description`,`setting`,`sort`,`lists_tpl`,`view_tpl`,`is_lower`,`is_delete`,`display`,`nav_display`,`seo_title`,`seo_keyword`,`seo_desc` FROM `yunzhan_category` ORDER BY sort asc, id asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index:  /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Yunzhansystem/Controller/CategoryController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `yunzhan_category` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yunzhan_category` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014101s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014207s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000199s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000504s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000554s ]
+
+[ 2017-04-04T20:15:32+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Category&a=add&catid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+SQL: SHOW COLUMNS FROM `yunzhan_category` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `yunzhan_pages` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `yunzhan_article` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yunzhan_category`  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yunzhan_category` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`pid`,`title`,`english`,`type`,`image`,`description`,`setting`,`sort`,`lists_tpl`,`view_tpl`,`is_lower`,`is_delete`,`display`,`nav_display`,`seo_title`,`seo_keyword`,`seo_desc` FROM `yunzhan_category` ORDER BY sort asc, id asc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/a6f387c775181363b01269813e865e3c.php 第 33 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/a6f387c775181363b01269813e865e3c.php 第 33 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/a6f387c775181363b01269813e865e3c.php 第 33 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/a6f387c775181363b01269813e865e3c.php 第 33 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/a6f387c775181363b01269813e865e3c.php 第 33 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/a6f387c775181363b01269813e865e3c.php 第 33 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/a6f387c775181363b01269813e865e3c.php 第 53 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/a6f387c775181363b01269813e865e3c.php 第 54 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/a6f387c775181363b01269813e865e3c.php 第 67 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/a6f387c775181363b01269813e865e3c.php 第 68 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/a6f387c775181363b01269813e865e3c.php 第 78 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/a6f387c775181363b01269813e865e3c.php 第 86 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/a6f387c775181363b01269813e865e3c.php 第 87 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/a6f387c775181363b01269813e865e3c.php 第 96 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/a6f387c775181363b01269813e865e3c.php 第 97 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/a6f387c775181363b01269813e865e3c.php 第 124 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/a6f387c775181363b01269813e865e3c.php 第 128 行.
+NOTIC: [8] Undefined variable: info /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/a6f387c775181363b01269813e865e3c.php 第 132 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014709s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014777s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000518s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000574s ]
+
+[ 2017-04-04T20:15:39+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Category&a=add&catid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+SQL: SHOW COLUMNS FROM `yunzhan_category` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `yunzhan_pages` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `yunzhan_article` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yunzhan_category`  [ RunTime:0.0004s ]
+SQL: INSERT INTO `yunzhan_category` (`type`,`pid`,`title`,`sort`,`image`,`description`,`display`,`nav_display`,`seo_title`,`seo_keyword`,`seo_desc`,`lists_tpl`,`view_tpl`,`id`) VALUES (' ','5','资质荣誉','0','','','0','0','','','','','','0') [ RunTime:0.0194s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007326s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007397s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000319s ]
+
+[ 2017-04-04T20:15:40+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Category&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+SQL: SHOW COLUMNS FROM `yunzhan_category` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `yunzhan_pages` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `yunzhan_article` [ RunTime:0.0009s ]
+SQL: SELECT `id`,`pid`,`title`,`english`,`type`,`image`,`description`,`setting`,`sort`,`lists_tpl`,`view_tpl`,`is_lower`,`is_delete`,`display`,`nav_display`,`seo_title`,`seo_keyword`,`seo_desc` FROM `yunzhan_category` ORDER BY sort asc, id asc  [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index:  /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Yunzhansystem/Controller/CategoryController.class.php 第 24 行.
+NOTIC: [8] Undefined index:  /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Yunzhansystem/Controller/CategoryController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `yunzhan_category` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yunzhan_category` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015445s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015512s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000476s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000522s ]
+
+[ 2017-04-04T20:16:23+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Category&a=edit&id=48
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+SQL: SHOW COLUMNS FROM `yunzhan_category` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `yunzhan_pages` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `yunzhan_article` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yunzhan_category`  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yunzhan_category` WHERE `id` = 48 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`pid`,`title`,`english`,`type`,`image`,`description`,`setting`,`sort`,`lists_tpl`,`view_tpl`,`is_lower`,`is_delete`,`display`,`nav_display`,`seo_title`,`seo_keyword`,`seo_desc` FROM `yunzhan_category` ORDER BY sort asc, id asc  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+NOTIC: [8] Undefined variable: catid /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Runtime/Cache/Yunzhansystem/a6f387c775181363b01269813e865e3c.php 第 42 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014367s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014421s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000481s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000528s ]
+
+[ 2017-04-04T20:16:29+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Category&a=edit&id=48
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+SQL: SHOW COLUMNS FROM `yunzhan_category` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `yunzhan_pages` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `yunzhan_article` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yunzhan_category`  [ RunTime:0.0004s ]
+SQL: UPDATE `yunzhan_category` SET `type`=' ',`pid`='5',`title`='公司简介',`sort`='0',`image`='',`description`='',`display`='1',`nav_display`='1',`seo_title`='',`seo_keyword`='',`seo_desc`='',`lists_tpl`='',`view_tpl`='' WHERE `id` = 48 [ RunTime:0.0477s ]
+SQL: SELECT * FROM `yunzhan_pages` WHERE ( catid=48 ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007551s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007648s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000301s ]
+
+[ 2017-04-04T20:16:32+08:00 ] 114.249.36.103 /index.php?m=Yunzhansystem&c=Category&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+SQL: SHOW COLUMNS FROM `yunzhan_category` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `yunzhan_pages` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `yunzhan_article` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`pid`,`title`,`english`,`type`,`image`,`description`,`setting`,`sort`,`lists_tpl`,`view_tpl`,`is_lower`,`is_delete`,`display`,`nav_display`,`seo_title`,`seo_keyword`,`seo_desc` FROM `yunzhan_category` ORDER BY sort asc, id asc  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index:  /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Yunzhansystem/Controller/CategoryController.class.php 第 24 行.
+NOTIC: [8] Undefined index:  /home/yunzhantest2y3ucnmzfhzaqnlt7ersdt/wwwroot/Apps/Yunzhansystem/Controller/CategoryController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `yunzhan_category` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yunzhan_category` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019571s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019654s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000668s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000733s ]
+

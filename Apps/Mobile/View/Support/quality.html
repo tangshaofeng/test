@@ -1,0 +1,29 @@
+<extend name="Public/main" />
+<block name="main">
+<div class="crumbs2">{:catpos($catid)}</div>
+<div class="category_tree pdlr15">
+    <div class="catename">{$topinfo['title']}</div>
+    <ul>
+       <volist name=":get_category($top_catid)" id="vo">
+            <li <eq name="vo['id']" value="$catid">class="active"</eq>><a href="{$vo['url']}">{$vo['title']}</a></li>
+        </volist>
+    </ul>
+</div>
+<div class="h4_bt"><span>{$category['title']}</span></div>
+<ul class="zlgl_ul">
+<volist name="zlgl" id="vo">
+<if condition="$i % 2 eq 0">
+<li>
+<div class="pull_right imgs"><a href="{$vo['url']}"><img src="{:thumb($vo['thumb'],406,134)}" alt="{$vo['title']}"></a></div>
+<div class="pull_left text"><a href="{$vo['url']}">· {$vo['title']}</a></div>
+</li>
+<else/>
+<li>
+<div class="pull_left imgs"><a href="{$vo['url']}"><img src="{:thumb($vo['thumb'],406,134)}" alt="{$vo['title']}"></a></div>
+<div class="pull_right text"><a href="{$vo['url']}">· {$vo['title']}</a></div>
+</li>
+</if>
+
+</volist>
+</ul>
+</block>

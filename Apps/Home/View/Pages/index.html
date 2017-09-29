@@ -1,0 +1,23 @@
+<extend name="Public/main" />
+<block name="main">
+<div class="slide-page">
+    <img src="{:thumb($topinfo['image'],1920,400)}">
+</div>
+<div class="crumbs wrap">
+    <div class="w">{:catpos($catid)}</div>
+</div>
+<div class="w container">
+    <div class="left menu-tree">
+        <h3>{$topinfo['title']}</h3>
+        <ul>
+        <volist name=":get_category($top_catid)" id="vo">
+            <li><a href="{$vo['url']}">{$vo['title']}</a></li>
+        </volist>
+        </ul>
+    </div>
+    <div class="right page_boby">
+        {$content}
+    </div>
+</div>
+<div class="clh20"></div>
+</block>

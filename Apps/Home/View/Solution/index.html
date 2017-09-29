@@ -1,0 +1,88 @@
+<extend name="Public/main" />
+<block name="main">
+<div class="slide-page">
+    <img src="{:thumb($topinfo['image'],1920,400)}">
+</div>
+<div class="w container">
+    <div class="h2_ze"><h2>{$category['title']}</h2><small>{$category['english']}</small></div>
+    <ul class="solution-ul">
+    <volist name="lists" id="vo">
+        <li>
+            <a href="{$vo['url']}"><img src="{:thumb($vo['thumb'],307,241)}" width="357" height="280" alt="{$vo['title']}"></a>
+            <span><a href="{$vo['url']}">{:msubstr($vo['title'],0,15)}</a></span>
+            <p>{:msubstr($vo['description'],0,48)}</p>
+        </li>
+    </volist>
+    </ul>
+</div>
+<div class="clh20"></div>
+<!-- <div class="w container">
+    <div class="h2_ze"><h2>服务案例</h2><small>Service case</small></div>
+    <ul class="case-ul">
+<div class="ml fl">
+            <div id="js" class="js">
+            <volist name="service_case" id="vo">
+                 <li class="aa"><a href="{$vo['url']}"><img class="imgb" src="{:thumb($vo['thumb'],280,99)}" alt="{$vo['title']}" width="280" height="99"></a><span><a href="{$vo['url']}">· {$vo['title']}</a></span></li>
+            </volist>
+            <div id="jsNav" class="jsNav">
+            <volist name="banner" id="val">
+                    <a class="trigger <eq name='i' value='1'>xz</eq>" href="{$vo['url']}">· {$vo['title']}</a>
+                </volist>
+            <a id="next" class="nextBtn" href="javascript:void(0)"></a>
+                <a id="prev" class="prevBtn" href="javascript:void(0)"></a>
+                <div class="clear"></div>
+            </div>
+            </ul> 
+            <script>
+                service_case('js','jsNav','next','prev',4000);
+            </script>
+        </div>
+        </div> -->
+<div class="w container">
+    <div class="h2_ze"><h2>服务案例</h2><small>Service case</small></div>
+
+<div id="colee_left" style="overflow:hidden;width:100%;">
+<table cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td id="colee_left1" valign="top" align="center">
+<table cellpadding="2" cellspacing="0" border="0">
+<tr align="center">
+<volist name="service_case" id="vo">
+<td><p><a href="{$vo['url']}"><img src="{:thumb($vo['thumb'],280,99)}" alt="{$vo['title']}" width="280" height="99"></a><span><a href="{$vo['url']}">· {$vo['title']}</a></span></p></td>
+</volist>
+</tr>
+</table>
+</td>
+<td id="colee_left2" valign="top"></td>
+</tr>
+</table>
+</div>
+</div>
+<script>
+//使用div时，请保证colee_left2与colee_left1是在同一行上.
+var speed=30//速度数值越大速度越慢
+var colee_left2=document.getElementById("colee_left2");
+var colee_left1=document.getElementById("colee_left1");
+var colee_left=document.getElementById("colee_left");
+colee_left2.innerHTML=colee_left1.innerHTML
+function Marquee3(){
+if(colee_left2.offsetWidth-colee_left.scrollLeft<=0)//offsetWidth 是对象的可见宽度
+colee_left.scrollLeft-=colee_left1.offsetWidth//scrollWidth 是对象的实际内容的宽，不包边线宽度
+else{
+colee_left.scrollLeft++
+}
+}
+var MyMar3=setInterval(Marquee3,speed)
+colee_left.onmouseover=function() {clearInterval(MyMar3)}
+colee_left.onmouseout=function() {MyMar3=setInterval(Marquee3,speed)}
+</script>
+<!-- <div class="w container">
+    <div class="h2_ze"><h2>服务案例</h2><small>Service case</small></div>
+    <ul class="case-ul">
+    <volist name="service_case" id="vo">
+    <li><a href="{$vo['url']}"><img src="{:thumb($vo['thumb'],280,99)}" alt="{$vo['title']}" width="280" height="99"></a><span><a href="{$vo['url']}">· {$vo['title']}</a></span></li>
+    </volist>
+    </ul>
+</div> -->
+<div class="clh20"></div>
+</block>

@@ -1,0 +1,35 @@
+<extend name="Public/main" />
+<block name="main">
+<div class="slide-page">
+    <img src="{:thumb($topinfo['image'],1920,400)}">
+</div>
+<div class="crumbs wrap">
+    <div class="w">{:catpos($catid)}</div>
+</div>
+<div class="w container">
+    <div class="left menu-tree">
+        <h3>{$topinfo['title']}</h3>
+        <ul>
+          <volist name=":get_category($top_catid)" id="vo">
+            <li <eq name="vo['id']" value="$catid">class="active"</eq>><a href="{$vo['url']}">{$vo['title']}</a></li>
+          </volist>
+        </ul>
+    </div>
+    <div class="right">
+      <div class="news-list">
+          <ul>
+          <volist name="lists" id="vo">
+          <if condition="$i elt 3">
+              <li class="first" <eq name="i" value="1">style="margin-left:0px;"</eq>><a href="{$vo['url']}" title="{$vo['title']}"><img src="{:thumb($vo['thumb'],302,220)}" width="302" height="220" alt="{$vo['title']}"><span><em>{:date('m-d',$vo['create_time'])}</em>{$vo['title']}</span></a></li>
+          <else/>
+              <li><a href="{$vo['url']}" title="{$vo['title']}">· {$vo['title']}</a><span>{:date('Y/m/d',$vo['create_time'])}</span></li>
+          </if>
+          </volist>
+          </ul>
+          <div class="clh20"></div>
+          <div class="paging">{$page}</div>
+      </div>
+    </div>
+</div>
+<div class="clh20"></div>
+</block>

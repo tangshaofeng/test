@@ -1,0 +1,29 @@
+<extend name="Public/main" />
+<block name="main">
+<div class="slide-page">
+    <img src="{:thumb($topinfo['image'],1920,400)}">
+</div>
+<div class="crumbs wrap">
+    <div class="w">{:catpos($catid)}</div>
+</div>
+<div class="w container">
+    <div class="left menu-tree">
+        <h3>{$father['title']}</h3>
+        <ul>
+        <volist name=":get_category($category['pid'])" id="vo">
+            <li <eq name="vo['id']" value="$catid">class="active"</eq>><a href="{$vo['url']}">{$vo['title']}</a></li>
+        </volist>
+        </ul>
+    </div>
+    <div class="right art_boby">
+        <div class="art_head">
+            <div class="art_share"><span style="float:left;margin:6px 6px 6px 0;line-height:16px;">分享到：</span><div class="bdsharebuttonbox"><a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a><a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a></div>
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script></div>
+            <div class="clear"></div>
+            <div class="title">{$info['title']}</div>
+        </div>
+        <div class="art_con">{$info['content']}</div>
+    </div>
+</div>
+<div class="clh20"></div>
+</block>

@@ -1,0 +1,310 @@
+[ 2017-03-21T13:25:25+08:00 ] 127.0.0.1 /yunzhansystem/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000855s ]
+SQL: SHOW COLUMNS FROM `yunzhan_menu` [ RunTime:0.0585s ]
+SQL: SELECT * FROM `yunzhan_menu` WHERE ( pid=0 and display=1  ) ORDER BY sort asc,id asc  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000297s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.091173s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091288s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000925s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001017s ]
+
+[ 2017-03-21T13:25:27+08:00 ] 127.0.0.1 /index.php?m=Yunzhansystem&c=Public&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+SQL: SHOW COLUMNS FROM `yunzhan_admin` [ RunTime:0.0487s ]
+SQL: SHOW COLUMNS FROM `yunzhan_menu` [ RunTime:0.0114s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000228s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000446s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.103373s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.103664s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001697s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001879s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003222s ]
+
+[ 2017-03-21T13:25:29+08:00 ] 127.0.0.1 /index.php?m=Yunzhansystem&c=Public&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+SQL: SHOW COLUMNS FROM `yunzhan_admin` [ RunTime:0.0119s ]
+SQL: SHOW COLUMNS FROM `yunzhan_menu` [ RunTime:0.0114s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001540s ]
+
+[ 2017-03-21T13:25:36+08:00 ] 127.0.0.1 /index.php?m=Yunzhansystem&c=Public&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+SQL: SHOW COLUMNS FROM `yunzhan_admin` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `yunzhan_menu` [ RunTime:0.0056s ]
+SQL: SELECT `id`,`username`,`userpwd`,`status`,`level`,`create_time`,`root`,`last_login_time`,`last_login_ip` FROM `yunzhan_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0098s ]
+SQL: UPDATE `yunzhan_admin` SET `last_login_time`='1490073936',`last_login_ip`='127.0.0.1' WHERE ( id=1 ) [ RunTime:0.0515s ]
+
+[ 2017-03-21T13:25:37+08:00 ] 127.0.0.1 /index.php?m=Yunzhansystem&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+SQL: SHOW COLUMNS FROM `yunzhan_menu` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `yunzhan_menu` WHERE ( pid=0 and display=1  ) ORDER BY sort asc,id asc  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000290s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026998s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027254s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001249s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001358s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001176s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001275s ]
+
+[ 2017-03-21T13:25:40+08:00 ] 127.0.0.1 /index.php?m=Yunzhansystem&c=Index&a=indexs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000629s ]
+SQL: SHOW COLUMNS FROM `yunzhan_config` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `yunzhan_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yunzhan_article` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `yunzhan_article` ORDER BY sort asc,create_time desc,id desc LIMIT 7   [ RunTime:0.1590s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+SQL: select version() as v; [ RunTime:0.0382s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.095895s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096104s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001006s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001229s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001330s ]
+
+[ 2017-03-21T13:25:41+08:00 ] 127.0.0.1 /index.php?m=Yunzhansystem&c=Public&a=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001033s ]
+SQL: SHOW COLUMNS FROM `yunzhan_admin` [ RunTime:0.0105s ]
+SQL: SHOW COLUMNS FROM `yunzhan_menu` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `yunzhan_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: Arr_str E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-03\z-zhongzhiguohua\Apps\Yunzhansystem\Controller\PublicController.class.php 第 91 行.
+SQL: SELECT * FROM `yunzhan_menu` WHERE ( pid=1 and display=1 ) ORDER BY sort asc,id desc  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000185s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000388s ]
+SQL: SHOW COLUMNS FROM `yunzhan_menu` [ RunTime:0.1030s ]
+SQL: SELECT * FROM `yunzhan_menu` WHERE ( pid=7 and display=1 ) ORDER BY sort asc,id desc  [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.282211s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.282416s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001028s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001327s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001429s ]
+
+[ 2017-03-21T13:25:44+08:00 ] 127.0.0.1 /index.php?m=Yunzhansystem&c=Public&a=menu&mid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `yunzhan_admin` [ RunTime:0.0117s ]
+SQL: SHOW COLUMNS FROM `yunzhan_menu` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `yunzhan_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: Arr_str E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-03\z-zhongzhiguohua\Apps\Yunzhansystem\Controller\PublicController.class.php 第 91 行.
+SQL: SELECT * FROM `yunzhan_menu` WHERE ( pid=3 and display=1 ) ORDER BY sort asc,id desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+SQL: SHOW COLUMNS FROM `yunzhan_menu` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `yunzhan_menu` WHERE ( pid=10 and display=1 ) ORDER BY sort asc,id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yunzhan_menu` WHERE ( pid=13 and display=1 ) ORDER BY sort asc,id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yunzhan_menu` WHERE ( pid=16 and display=1 ) ORDER BY sort asc,id desc  [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024128s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024241s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000961s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001046s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001226s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001318s ]
+
+[ 2017-03-21T13:25:46+08:00 ] 127.0.0.1 /index.php?m=Yunzhansystem&c=Category&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+SQL: SHOW COLUMNS FROM `yunzhan_category` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `yunzhan_pages` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `yunzhan_article` [ RunTime:0.0042s ]
+SQL: SELECT `id`,`pid`,`title`,`english`,`type`,`image`,`description`,`setting`,`sort`,`lists_tpl`,`view_tpl`,`is_lower`,`is_delete`,`display`,`nav_display`,`seo_title`,`seo_keyword`,`seo_desc` FROM `yunzhan_category` ORDER BY sort asc, id asc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: Service E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-03\z-zhongzhiguohua\Apps\Yunzhansystem\Controller\CategoryController.class.php 第 24 行.
+NOTIC: [8] Undefined index: Solution E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-03\z-zhongzhiguohua\Apps\Yunzhansystem\Controller\CategoryController.class.php 第 24 行.
+NOTIC: [8] Undefined index: Support E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-03\z-zhongzhiguohua\Apps\Yunzhansystem\Controller\CategoryController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `yunzhan_category` [ RunTime:0.0047s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yunzhan_category` LIMIT 1   [ RunTime:0.0635s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063706s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063829s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000946s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001043s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001234s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001350s ]
+
+[ 2017-03-21T13:25:53+08:00 ] 127.0.0.1 /index.php?m=Yunzhansystem&c=Category&a=edit&id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000740s ]
+SQL: SHOW COLUMNS FROM `yunzhan_category` [ RunTime:0.0468s ]
+SQL: SHOW COLUMNS FROM `yunzhan_pages` [ RunTime:0.0061s ]
+SQL: SHOW COLUMNS FROM `yunzhan_article` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `yunzhan_category`  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yunzhan_category` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`pid`,`title`,`english`,`type`,`image`,`description`,`setting`,`sort`,`lists_tpl`,`view_tpl`,`is_lower`,`is_delete`,`display`,`nav_display`,`seo_title`,`seo_keyword`,`seo_desc` FROM `yunzhan_category` ORDER BY sort asc, id asc  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000212s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000327s ]
+NOTIC: [8] Undefined variable: catid E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-03\z-zhongzhiguohua\Apps\Runtime\Cache\Yunzhansystem\a6f387c775181363b01269813e865e3c.php 第 42 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.129605s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.129750s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002571s ]
+
+[ 2017-03-21T13:25:57+08:00 ] 127.0.0.1 /index.php?m=Yunzhansystem&c=Tool&a=uploadImage&id=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001252s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039288s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039464s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001301s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001444s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003280s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003455s ]
+
+[ 2017-03-21T13:26:18+08:00 ] 127.0.0.1 /index.php?m=Yunzhansystem&c=Tool&a=uploadImage&id=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-03\z-zhongzhiguohua\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-03-21T13:26:23+08:00 ] 127.0.0.1 /index.php?m=Yunzhansystem&c=Category&a=edit&id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000772s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003135s ]
+SQL: SHOW COLUMNS FROM `yunzhan_category` [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `yunzhan_pages` [ RunTime:0.0064s ]
+SQL: SHOW COLUMNS FROM `yunzhan_article` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `yunzhan_category`  [ RunTime:0.0007s ]
+SQL: UPDATE `yunzhan_category` SET `type`='Pages',`pid`='0',`title`='关于我们',`sort`='0',`image`='Content/2017-03-21/58d0b97a8e5f2.png',`description`='',`display`='1',`nav_display`='1',`seo_title`='',`seo_keyword`='',`seo_desc`='',`lists_tpl`='',`view_tpl`='pages' WHERE `id` = 5 [ RunTime:0.1698s ]
+SQL: SELECT * FROM `yunzhan_pages` WHERE ( catid=5 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: UPDATE `yunzhan_pages` SET `title`='关于我们',`catid`='5' WHERE ( catid=5 ) [ RunTime:0.0640s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000381s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054359s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054607s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005312s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005498s ]
+
+[ 2017-03-21T13:26:25+08:00 ] 127.0.0.1 /index.php?m=Yunzhansystem&c=Category&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000823s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004381s ]
+SQL: SHOW COLUMNS FROM `yunzhan_category` [ RunTime:0.0103s ]
+SQL: SHOW COLUMNS FROM `yunzhan_pages` [ RunTime:0.0107s ]
+SQL: SHOW COLUMNS FROM `yunzhan_article` [ RunTime:0.0123s ]
+SQL: SELECT `id`,`pid`,`title`,`english`,`type`,`image`,`description`,`setting`,`sort`,`lists_tpl`,`view_tpl`,`is_lower`,`is_delete`,`display`,`nav_display`,`seo_title`,`seo_keyword`,`seo_desc` FROM `yunzhan_category` ORDER BY sort asc, id asc  [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: Service E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-03\z-zhongzhiguohua\Apps\Yunzhansystem\Controller\CategoryController.class.php 第 24 行.
+NOTIC: [8] Undefined index: Solution E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-03\z-zhongzhiguohua\Apps\Yunzhansystem\Controller\CategoryController.class.php 第 24 行.
+NOTIC: [8] Undefined index: Support E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-03\z-zhongzhiguohua\Apps\Yunzhansystem\Controller\CategoryController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `yunzhan_category` [ RunTime:0.0132s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yunzhan_category` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000274s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023177s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023290s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001680s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001739s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001751s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001809s ]
+

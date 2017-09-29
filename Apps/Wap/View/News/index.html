@@ -1,0 +1,28 @@
+<extend name="Public/main" />
+<block name="main">
+<div class="crumbs2">{:catpos($catid)}</div>
+<div class="category_tree pdlr15">
+<div class="catename">{$topinfo['title']}</div>
+<ul>
+   <volist name=":get_category($top_catid)" id="vo">
+        <li <eq name="vo['id']" value="$catid">class="active"</eq>><a href="{$vo['url']}">{$vo['title']}</a></li>
+    </volist>
+</ul>
+</div>
+<div class="h4_bt"><span>{$category['title']}</span></div>
+<div class="news-list">
+  <ul>
+  <volist name="lists" id="vo">
+  <if condition="$i elt 2">
+      <li class="first"><a href="{$vo['url']}" title="{$vo['title']}"><img src="{:thumb($vo['thumb'],302,220)}" width="302" height="220" alt="{$vo['title']}"><span><em>{:date('m-d',$vo['create_time'])}</em>{$vo['title']}</span></a></li>
+      <eq name="i" value="2"><div class="clear"></div></eq>
+  <else/>
+      <li><a href="{$vo['url']}" title="{$vo['title']}">· {$vo['title']}</a><span>{:date('Y/m/d',$vo['create_time'])}</span></li>
+  </if>
+  </volist>
+  </ul>
+  <div class="clear"></div>
+  <div class="paging">{$page}</div>
+</div>
+<div class="clh20"></div>
+</block>

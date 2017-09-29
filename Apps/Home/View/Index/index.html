@@ -1,0 +1,375 @@
+<extend name="Public/main" />
+<block name="main">
+<script src="__HOME__js/jquery.reslider.js" type="text/javascript"></script>
+<script type="text/javascript" src="__HOME__js/jquery.SuperSlide.js"></script>
+<!--banner start-->
+<div class="banner">
+  <!-- slider-->
+  <div class="slider">
+    <div class="jquery-reslider">
+    <volist name="banner" id="vo">
+      <div class="slider-block" data-url="{:thumb($vo['image'])}"><a href="{$vo['url']}" title="{$vo['alt']}"></a></div>
+    </volist>
+      <div class="slider-direction slider-direction-next"></div>
+      <div class="slider-direction slider-direction-prev"></div>
+      <div class="slider-dots"><ul></ul></div>
+    </div>
+  </div>
+  <script>
+    $(function(){
+        $('.jquery-reslider').reSlider({
+            speed:1000,//设置轮播的高度
+            delay:5000,//设置轮播的延迟时间
+            imgCount:3,//设置轮播的图片数
+            dots:true,//设置轮播的序号点
+            autoPlay:true//设置轮播是否自动播放
+        });
+    });
+</script> 
+</div>
+<!--service start-->
+<div class="service-section w">
+    <h1>主要业务板块</h1>
+    <div class="service-box">
+    <volist name="service" id="vo">
+        <div class="box{$i}"><a href="{$vo['url']}"><img src="{:thumb($vo['image'])}" alt="{$vo['title']}"><br/>{$vo['title']}</a></div>
+    </volist>
+    </div>
+</div>
+<!--news start-->
+<div class="news-section w">
+    <h1>新闻中心</h1>
+    <div class="news-box">
+        <!---->
+        <div class="leftLoop">
+        <a class="next"></a>
+        <a class="prev"></a>
+        <div class="bd">
+        <ul class="picList">
+        <volist name="index_news" id="vo">
+        <li><span>{:date('Y-m-d',$vo['create_time'])}</span><a href="{$vo['url']}"><img src="{:thumb($vo['thumb'],303,144)}" alt="{$vo['alt']}"></a><b><a href="{$vo['url']}">{$vo['title']}</a></b><p>{$vo['description']}</p></li>
+        </volist>
+        </ul>
+        </div>
+        </div>
+        <script type="text/javascript">jQuery(".leftLoop").slide({ mainCell:".bd ul",effect:"leftLoop",vis:3,scroll:3,autoPlay:true});</script>
+        <!---->
+    </div>
+</div>
+<div class="clh20"></div>
+<!--customer start-->
+<div class="customer-section w">
+    <h1>我们的客户</h1>
+    <div class="customer-box">
+        <ul id="m_btn">
+        <volist name="my_map" id="vo">
+        <notempty name="beijing_customer">
+        <li id="beijing" data-type="beijing" class="position_a"></li>
+        </notempty>
+        <notempty name="zhejiang_customer">
+        <li id="zhejiang" data-type="zhejiang" class="position_a"></li>
+        </notempty>
+        <notempty name="jiangsu_customer">
+        <li id="jiangsu" data-type="jiangsu" class="position_a"></li>
+        </notempty>
+        <notempty name="chongqing_customer">
+        <li id="chongqing" data-type="chongqing" class="position_a"></li>
+        </notempty>
+        <notempty name="shanghai_customer">
+        <li id="shanghai" data-type="shanghai" class="position_a"></li>
+        </notempty>
+        <notempty name="jiangxi_customer">
+        <li id="jiangxi" data-type="jiangxi" class="position_a"></li>
+        </notempty>
+        <notempty name="shanxi_customer">
+        <li id="shanxi" data-type="shanxi" class="position_a"></li>
+        </notempty>
+        <notempty name="shandong_customer">
+        <li id="shandong" data-type="shandong" class="position_a"></li>
+        </notempty>
+        <notempty name="liaoning_customer">
+        <li id="liaoning" data-type="liaoning" class="position_a"></li>
+        </notempty>
+        <notempty name="hebei_customer">
+        <li id="hebei" data-type="hebei" class="position_a"></li>
+        </notempty>
+        <notempty name="jilin_customer">
+        <li id="jilin" data-type="jilin" class="position_a"></li>
+        </notempty>
+        <notempty name="heilongjiang_customer">
+        <li id="heilongjiang" data-type="heilongjiang" class="position_a"></li>
+        </notempty>
+        <notempty name="henan_customer">
+        <li id="henan" data-type="henan" class="position_a"></li>
+        </notempty>
+        <notempty name="neimenggu_customer">
+        <li id="neimenggu" data-type="neimenggu" class="position_a"></li>
+        </notempty>
+        <notempty name="fujian_customer">
+        <li id="fujian" data-type="fujian" class="position_a"></li>
+        </notempty>
+        <notempty name="guangdong_customer">
+        <li id="guangdong" data-type="guangdong" class="position_a"></li>
+        </notempty>
+        <notempty name="ningxia_customer">
+        <li id="ningxia" data-type="ningxia" class="position_a"></li>
+        </notempty>
+        <notempty name="shanxi_A_customer">
+        <li id="name="shanxi_A" data-type="name="shanxi_A" class="position_a"></li>
+        </notempty>
+        <notempty name="anhui_customer">
+        <li id="anhui" data-type="anhui" class="position_a"></li>
+        </notempty>
+        <notempty name="hunan_customer">
+        <li id="hunan" data-type="hunan" class="position_a"></li>
+        </notempty>
+        <notempty name="hubei_customer">
+        <li id="hubei" data-type="hubei" class="position_a"></li>
+        </notempty>
+        <notempty name="xianggang_customer">
+        <li id="xianggang" data-type="xianggang" class="position_a"></li>
+        </notempty>
+        <notempty name="aomen_customer">
+        <li id="aomen" data-type="aomen" class="position_a"></li>
+        </notempty>
+        <notempty name="taiwan_customer">
+        <li id="taiwan" data-type="taiwan" class="position_a"></li>
+        </notempty>
+        <notempty name="guangxi_customer">
+        <li id="guangxi" data-type="guangxi" class="position_a"></li>
+        </notempty>
+        <notempty name="guizhou_customer">
+        <li id="guizhou" data-type="guizhou" class="position_a"></li>
+        </notempty>
+        <notempty name="sichuan_customer">
+        <li id="sichuan" data-type="sichuan" class="position_a"></li>
+        </notempty>
+        <notempty name="yunnan_customer">
+        <li id="yunnan" data-type="yunnan" class="position_a"></li>
+        </notempty>
+        <notempty name="xizang_customer">
+        <li id="xizang" data-type="xizang" class="position_a"></li>
+        </notempty>
+        <notempty name="gansu_customer">
+        <li id="gansu" data-type="gansu" class="position_a"></li>
+        </notempty>
+        <notempty name="qinghai_customer">
+        <li id="qinghai" data-type="qinghai" class="position_a"></li>
+        </notempty>
+        <notempty name="xinjiang_customer">
+        <li id="xinjiang" data-type="xinjiang" class="position_a"></li>
+        </notempty>
+        <notempty name="hainan_customer">
+        <li id="hainan" data-type="hainan" class="position_a"></li>
+        </notempty>
+        </volist>
+        </ul>
+        <div class="e_map_info">
+        <volist name="my_map" id="vo">
+
+        <div class="m_content m_{$vo['pinyin']} hide" data-panel="{$vo['pinyin']}">
+          <i></i>
+          <h4>{$vo['title']}</h4>
+          <ul>
+              <li><a href="javascript:;"><img src="{:thumb($vo['image'],218,84)}"  width="218" height="84"></a></li>
+              <eq name="vo['pinyin']" value="beijing">
+              <volist name="beijing_customer" id="vo">
+              <li><a href="{$vo['url']}">{$vo['title']}</a></li>
+              </volist>
+              </eq>
+              <eq name="vo['pinyin']" value="hebei">
+              <volist name="hebei_customer" id="vo">
+              <li><a href="{$vo['url']}">{$vo['title']}</a></li>
+              </volist>
+              </eq>
+              <eq name="vo['pinyin']" value="liaoning">
+              <volist name="liaoning_customer" id="vo">
+              <li><a href="{$vo['url']}">{$vo['title']}</a></li>
+              </volist>
+              </eq>
+              <eq name="vo['pinyin']" value="shandong">
+              <volist name="shandong_customer" id="vo">
+              <li><a href="{$vo['url']}">{$vo['title']}</a></li>
+              </volist>
+              </eq>
+              <eq name="vo['pinyin']" value="shanxi">
+              <volist name="shanxi_customer" id="vo">
+              <li><a href="{$vo['url']}">{$vo['title']}</a></li>
+              </volist>
+              </eq>
+              <eq name="vo['pinyin']" value="chongqing">
+              <volist name="chongqing_customer" id="vo">
+              <li><a href="{$vo['url']}">{$vo['title']}</a></li>
+              </volist>
+              </eq>
+              <eq name="vo['pinyin']" value="jiangxi">
+              <volist name="jiangxi_customer" id="vo">
+              <li><a href="{$vo['url']}">{$vo['title']}</a></li>
+              </volist>
+              </eq>
+              <eq name="vo['pinyin']" value="jiangsu">
+              <volist name="jiangsu_customer" id="vo">
+              <li><a href="{$vo['url']}">{$vo['title']}</a></li>
+              </volist>
+              </eq>
+              <eq name="vo['pinyin']" value="shanghai">
+              <volist name="shanghai_customer" id="vo">
+              <li><a href="{$vo['url']}">{$vo['title']}</a></li>
+              </volist>
+              </eq>
+              <eq name="vo['pinyin']" value="zhejiang">
+              <volist name="zhejiang_customer" id="vo">
+              <li><a href="{$vo['url']}">{$vo['title']}</a></li>
+              </volist>
+              </eq>
+               <eq name="vo['pinyin']" value="jilin">
+              <volist name="jilin_customer" id="vo">
+              <li><a href="{$vo['url']}">{$vo['title']}</a></li>
+              </volist>
+              </eq>
+               <eq name="vo['pinyin']" value="heilongjiang">
+              <volist name="heilongjiang_customer" id="vo">
+              <li><a href="{$vo['url']}">{$vo['title']}</a></li>
+              </volist>
+              </eq>
+              <eq name="vo['pinyin']" value="neimenggu">
+              <volist name="neimenggu_customer" id="vo">
+              <li><a href="{$vo['url']}">{$vo['title']}</a></li>
+              </volist>
+              </eq>
+              <eq name="vo['pinyin']" value="guangdong">
+              <volist name="guangdong_customer" id="vo">
+              <li><a href="{$vo['url']}">{$vo['title']}</a></li>
+              </volist>
+              </eq>
+               <eq name="vo['pinyin']" value="ningxia">
+              <volist name="ningxia_customer" id="vo">
+              <li><a href="{$vo['url']}">{$vo['title']}</a></li>
+              </volist>
+              </eq>
+              <eq name="vo['pinyin']" value="shanxi_A">
+              <volist name="shanxi_A_customer" id="vo">
+              <li><a href="{$vo['url']}">{$vo['title']}</a></li>
+              </volist>
+              </eq>
+              <eq name="vo['pinyin']" value="henan">
+              <volist name="henan_customer" id="vo">
+              <li><a href="{$vo['url']}">{$vo['title']}</a></li>
+              </volist>
+              </eq>
+              <eq name="vo['pinyin']" value="anhui">
+              <volist name="anhui_customer" id="vo">
+              <li><a href="{$vo['url']}">{$vo['title']}</a></li>
+              </volist>
+              </eq>
+              <eq name="vo['pinyin']" value="hunan">
+              <volist name="hunan_customer" id="vo">
+              <li><a href="{$vo['url']}">{$vo['title']}</a></li>
+              </volist>
+              </eq>
+              <eq name="vo['pinyin']" value="hubei">
+              <volist name="hubei_customer" id="vo">
+              <li><a href="{$vo['url']}">{$vo['title']}</a></li>
+              </volist>
+              </eq>
+              <eq name="vo['pinyin']" value="xianggang">
+              <volist name="xianggang_customer" id="vo">
+              <li><a href="{$vo['url']}">{$vo['title']}</a></li>
+              </volist>
+              </eq>
+              <eq name="vo['pinyin']" value="aomen">
+              <volist name="aomen_customer" id="vo">
+              <li><a href="{$vo['url']}">{$vo['title']}</a></li>
+              </volist>
+              </eq>
+              <eq name="vo['pinyin']" value="taiwan">
+              <volist name="taiwan_customer" id="vo">
+              <li><a href="{$vo['url']}">{$vo['title']}</a></li>
+              </volist>
+              </eq>
+              <eq name="vo['pinyin']" value="guangxi">
+              <volist name="guangxi_customer" id="vo">
+              <li><a href="{$vo['url']}">{$vo['title']}</a></li>
+              </volist>
+              </eq>
+              <eq name="vo['pinyin']" value="guizhou">
+              <volist name="guizhou_customer" id="vo">
+              <li><a href="{$vo['url']}">{$vo['title']}</a></li>
+              </volist>
+              </eq>
+              <eq name="vo['pinyin']" value="sichuan">
+              <volist name="sichuan_customer" id="vo">
+              <li><a href="{$vo['url']}">{$vo['title']}</a></li>
+              </volist>
+              </eq>
+              <eq name="vo['pinyin']" value="yunnan">
+              <volist name="yunnan_customer" id="vo">
+              <li><a href="{$vo['url']}">{$vo['title']}</a></li>
+              </volist>
+              </eq>
+              <eq name="vo['pinyin']" value="xizang">
+              <volist name="xizang_customer" id="vo">
+              <li><a href="{$vo['url']}">{$vo['title']}</a></li>
+              </volist>
+              </eq>
+              <eq name="vo['pinyin']" value="gansu">
+              <volist name="gansu_customer" id="vo">
+              <li><a href="{$vo['url']}">{$vo['title']}</a></li>
+              </volist>
+              </eq>
+               <eq name="vo['pinyin']" value="qinghai">
+              <volist name="qinghai_customer" id="vo">
+              <li><a href="{$vo['url']}">{$vo['title']}</a></li>
+              </volist>
+              </eq>
+               <eq name="vo['pinyin']" value="xinjiang">
+              <volist name="xinjiang_customer" id="vo">
+              <li><a href="{$vo['url']}">{$vo['title']}</a></li>
+              </volist>
+              </eq>
+               <eq name="vo['pinyin']" value="hainan">
+              <volist name="hainan_customer" id="vo">
+              <li><a href="{$vo['url']}">{$vo['title']}</a></li>
+              </volist>
+              </eq>
+          </ul>
+          </ul>
+        </div>
+        </volist>
+        
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){
+    
+    var timer = {};
+
+    $('#m_btn').delegate('.position_a', 'mouseenter', function(){
+        var self = $(this);
+        var tp = self.attr('data-type');
+        clearTimeout(timer[tp]);
+        timer[tp] = setTimeout(function(){
+            self.addClass('hover');
+            $('div[data-panel=' + tp + ']').removeClass('hide');
+        },100);
+    }).delegate('li', 'mouseleave', function(){
+        var self = $(this);
+        var tp = self.attr('data-type');
+        clearTimeout(timer[tp])
+        timer[tp] = setTimeout(function(){
+            self.removeClass('hover');
+            $('div[data-panel=' + tp + ']').addClass('hide');
+        },100);
+    });
+    
+    $(document.body).delegate('div.m_content', 'mouseenter', function(){
+        clearTimeout(timer[$(this).attr('data-panel')]);
+    }).delegate('div.m_content', 'mouseleave', function(){
+        $(this).addClass('hide');
+        $('li[data-type='+ $(this).attr('data-panel') +']').removeClass('hover');
+    });
+    
+});
+</script>
+</block>

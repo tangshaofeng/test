@@ -1,0 +1,43 @@
+<extend name="Public/main" />
+<block name="main">
+<div class="slide-page">
+    <img src="{:thumb($topinfo['image'],1920,400)}">
+</div>
+<div class="crumbs wrap">
+    <div class="w">{:catpos($catid)}</div>
+</div>
+<div class="w container">
+    <div class="left menu-tree">
+        <h3>{$topinfo['title']}</h3>
+        <ul>
+        <volist name="service_tree" id="vo">
+            <li <eq name="vo['id']" value="$info['id']">class="active"</eq>><a href="{$vo['url']}">{$vo['title']}</a></li>
+        </volist>
+        </ul>
+    </div>
+    <div class="right page_boby">
+        <if condition="($info['con_name']) eq null">   
+        <else /> <h4 class="h4_bt"><span>{$info['con_name']}</span></h4>
+        <div class="art_con">{$info['content']}</div>
+    </if>
+      <if condition="($info['con_name1']) eq null">   
+        <else /> <h4 class="h4_bt"><span>{$info['con_name1']}</span></h4>
+        <div class="art_con">{$info['content1']}</div>
+    </if>
+      <if condition="($info['con_name2']) eq null">   
+        <else /> <h4 class="h4_bt"><span>{$info['con_name2']}</span></h4>
+        <div class="art_con">{$info['content2']}</div>
+    </if>
+      <if condition="($info['con_name3']) eq null">   
+        <else /> <h4 class="h4_bt"><span>{$info['con_name3']}</span></h4>
+        <div class="art_con">{$info['content3']}</div>
+    </if>
+      <if condition="($info['con_name4']) eq null">   
+        <else /> <h4 class="h4_bt"><span>{$info['con_name4']}</span></h4>
+        <div class="art_con">{$info['content4']}</div>
+    </if>
+        
+    </div>
+</div>
+<div class="clh20"></div>
+</block>

@@ -1,0 +1,110 @@
+[ 2017-03-09T09:58:13+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.042400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015354s ]
+SQL: SHOW COLUMNS FROM `yunzhan_stats` [ RunTime:0.2001s ]
+SQL: DELETE FROM `yunzhan_stats` WHERE ( access_time < 1970-01-01 ) [ RunTime:0.0535s ]
+SQL: SHOW COLUMNS FROM `yunzhan_category` [ RunTime:0.1991s ]
+SQL: SHOW COLUMNS FROM `yunzhan_config` [ RunTime:0.2452s ]
+SQL: SHOW COLUMNS FROM `yunzhan_pages` [ RunTime:0.0372s ]
+SQL: SHOW COLUMNS FROM `yunzhan_ads` [ RunTime:0.0818s ]
+SQL: SHOW COLUMNS FROM `yunzhan_article` [ RunTime:0.0480s ]
+SQL: SHOW COLUMNS FROM `yunzhan_links` [ RunTime:0.0590s ]
+SQL: SELECT * FROM `yunzhan_category` WHERE ( 1=1 ) ORDER BY sort asc, id asc  [ RunTime:0.0265s ]
+NOTIC: [8] Undefined index: is_jump E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Model\CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Model\CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Model\CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Model\CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Model\CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Model\CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Model\CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Model\CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Model\CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Model\CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Model\CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Model\CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Model\CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Model\CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Model\CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Model\CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Model\CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Model\CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Model\CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Model\CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Model\CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Model\CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Model\CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Model\CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Model\CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Model\CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Model\CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Model\CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Model\CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Model\CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Model\CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Model\CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Model\CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Model\CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Model\CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Model\CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Model\CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Model\CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: is_jump E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Model\CategoryModel.class.php 第 14 行.
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index:  E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Controller\IndexController.class.php 第 32 行.
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Controller\IndexController.class.php 第 32 行.
+NOTIC: [8] Undefined index:  E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Controller\IndexController.class.php 第 32 行.
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index:  E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Controller\IndexController.class.php 第 32 行.
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Controller\IndexController.class.php 第 32 行.
+NOTIC: [8] Undefined index:  E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Controller\IndexController.class.php 第 32 行.
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index:  E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Controller\IndexController.class.php 第 32 行.
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Controller\IndexController.class.php 第 32 行.
+NOTIC: [8] Undefined index:  E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Controller\IndexController.class.php 第 32 行.
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index:  E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Controller\IndexController.class.php 第 32 行.
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Controller\IndexController.class.php 第 32 行.
+NOTIC: [8] Undefined index:  E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Controller\IndexController.class.php 第 32 行.
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Controller\IndexController.class.php 第 32 行.
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Controller\IndexController.class.php 第 32 行.
+NOTIC: [8] Undefined index:  E:\AppServ\www\PHP\yunzhannet\Project\2017\2017-02\s-shixiwang\Apps\Home\Controller\IndexController.class.php 第 32 行.
+SQL: SELECT * FROM `yunzhan_category` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yunzhan_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yunzhan_category` [ RunTime:0.0041s ]
+SQL: SELECT `title`,`id` FROM `yunzhan_category` WHERE `pid` = 2 ORDER BY sort asc,id desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yunzhan_ads` WHERE `catid` = 3 AND `startdate` <= 1489024692 AND `enddate` >= 1489024692 ORDER BY sort desc, id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yunzhan_ads` WHERE `catid` = 1 AND `startdate` <= 1489024692 AND `enddate` >= 1489024692 ORDER BY sort desc, id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yunzhan_category` WHERE `pid` = 1 AND `display` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `yunzhan_article` [ RunTime:0.0038s ]
+SQL: SELECT `id`,`thumb`,`title` FROM `yunzhan_article` WHERE `catid` IN ('19','20','21','22','23','24','25','26','27','28','29','1','') AND `status` = 1 AND `is_recom` = 1 ORDER BY sort asc,create_time asc,id desc LIMIT 20   [ RunTime:0.0773s ]
+SQL: SELECT `id`,`title` FROM `yunzhan_article` WHERE `catid` IN ('19','20','21','22','23','24','25','26','27','28','29','1','') AND `status` = 1 ORDER BY sort asc,create_time asc,id desc LIMIT 10   [ RunTime:0.0012s ]
+SQL: SELECT `id`,`title` FROM `yunzhan_article` WHERE `catid` IN ('19','20','21','22','23','24','25','26','27','28','29','1','') AND `status` = 1 AND `is_hot` = 1 ORDER BY sort asc,create_time asc,id desc LIMIT 10   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `yunzhan_ads` WHERE `catid` = 2 AND `startdate` <= 1489024692 AND `enddate` >= 1489024692 ORDER BY sort desc, id asc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yunzhan_category` WHERE `pid` = 2 AND `display` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`thumb`,`title`,`job` FROM `yunzhan_article` WHERE `catid` IN ('5','6','7','8','9','10','11','12','13','14','15','16','17','18','2','') AND `status` = 1 AND `is_recom` = 1 ORDER BY sort asc,create_time asc,id desc  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yunzhan_links` WHERE `catid` = 1  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000240s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.367497s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.367652s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.022728s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.022804s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011851s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011985s ]
+

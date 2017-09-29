@@ -1,0 +1,54 @@
+<extend name="Public/main" />
+<block name="main">
+<div class="slide-page">
+    <img src="{:thumb($topinfo['image'],1920,400)}">
+</div>
+<div class="crumbs wrap">
+    <div class="w">{:catpos($catid)}</div>
+</div>
+<div class="w container">
+    <div class="left">
+        <div class="menu-tree">
+            <h3>{$father['title']}</h3>
+            <ul>
+                <volist name=":get_category($category['pid'])" id="vo">
+                <li <eq name="vo['id']" value="$catid">class="active"</eq>><a href="{$vo['url']}">{$vo['title']}</a></li>
+                </volist>
+            </ul>
+        </div>
+        <div class="precom">
+            <h3>重点推荐</h3>
+            <volist name="recom_pro_ads" id="vo">
+            <a href="{$vo['url']}" title="{$vo['alt']}"><img src="{:thumb($vo['image'],166,132)}" alt="{$vo['alt']}"></a>
+            </volist>
+        </div>
+        <div class="pnrecom">
+            <h3>推荐新闻</h3>
+            <ul>
+            <volist name="recom_news" id="vo">
+            <li><a href="{$vo['url']}">{$i}.{:msubstr($vo['title'],0,10)}</a></li>
+            </volist>
+            </ul>
+        </div>
+    </div>
+    <div class="right">
+        <div class="pro_lists">
+            <ul>
+            <volist name="lists" id="vo">
+                <li>
+                <div class="left"><a href="{$vo['url']}"><img src="{:thumb($vo['thumb'],151,80)}" alt="" width="151" height="80"></a></div>
+                <div class="right">
+                <a href="{$vo['url']}" class="title">{$vo['title']}</a>
+                <span class="brand">品牌:   Polycom </span>
+                <span class="desc">{$vo['description']}<a href="{$vo['url']}">查看详情</a></span>
+                </div>
+                </li>
+            </volist>
+            </ul>
+            <div class="clear"></div>
+        </div>
+        <div class="paing">{$page}</div>
+    </div>
+</div>
+<div class="clh20"></div>
+</block>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="stylesheet" href="__ADMIN__css/system.css">
+<link href="__ADMIN__css/table_form.css" rel="stylesheet"/>
+<link href="__ADMIN__css/reset.css" rel="stylesheet"/>
+<script src="__ADMIN__js/jquery.min.js" type="text/javascript" language="javascript"></script>
+<script src="__ADMIN__js/admin_common.js" type="text/javascript" language="javascript"></script>
+</head>
+<body>
+<div class="pad-10">
+<form name="myform" id="myform" action="" method="post">
+<div class="table-list">
+<div class="main_head">
+<h6>
+<div class="fl">文件列表</div>
+<div class="fr">
+<eq name="flags" value="1">
+<a href="{:U('index?dir=' . base64_encode(dirname($dir_path)))}">返回上层目录</a>
+</eq>
+</div>
+</h6>
+</div>
+<table width="100%">
+        <thead>
+            <tr>
+            <th width="5%">名称</th>
+            <th>名称</th>
+            <th width="15%">操作</th>
+            </tr>
+        </thead>
+<tbody>
+        <volist name="list" id="val">
+            <if condition="is_dir($val)">
+                <tr>
+                <td width="5%"></td>
+                <td align="left"><img src="__ADMIN__/ico/jia.ico" width="50" /> {:basename($val)}</td>
+                <td width="15%" align="center"><a href="{:U('index?dir='. base64_encode($val))}">打开文件夹</a></td>
+                </tr>
+            <else />
+                <tr>
+                    <td width="5%"></td>
+                    <td align="left"><img src="__ADMIN__/ico/{:pathinfo($val, PATHINFO_EXTENSION)}.ico" width="50" /> {:basename($val)}</td>
+                    <td width="15%" align="center">
+                        <a href="/{$val}" target="BigImg">查看</a>  |
+                        <a href="{:U('delFile?dir='. base64_encode($val))}" onclick="return confirm('文件删除后将无法恢复，确认删除此文件吗？')">删除</a>
+                    </td>
+                </tr>
+            </if>
+        </volist>
+             </tbody>
+     </table>
+
+</div>
+</form>
+</div>
+</body>
+</html>

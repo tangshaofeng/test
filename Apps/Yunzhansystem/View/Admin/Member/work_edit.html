@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="stylesheet" href="__ADMIN__css/system.css">
+<link rel="stylesheet" href="__ADMIN__css/style.css">
+<link href="__ADMIN__css/table_form.css" rel="stylesheet"/>
+<link href="__ADMIN__css/reset.css" rel="stylesheet"/>
+<link href="__ADMIN__css/style.css" rel="stylesheet"/>
+<link href="__ADMIN__css/laydate.css" rel="stylesheet"/>
+<script src="__ADMIN__js/jquery-1.9.1.min.js" type="text/javascript" language="javascript"></script>
+<script type="text/javascript" charset="utf-8" src="__ADMIN__js/Validform_v5.3.2.js"></script>
+<script type="text/javascript" src="__ADMIN__js/laydate.js"></script>
+</head>
+<body>
+<div class="pad-10">
+<form enctype="multipart/form-data" method="post" action="" id="myform" name="myform" class="myform">
+<div class="main_head">
+<h6>
+<div class="fl">作品信息</div>
+<div class="fr"><a href="javascript:history.go(-1);">返回上一页</a>
+</div>
+</h6>
+</div>
+<table class="table_form" cellspacing="0" width="100%">
+<tbody>
+    <tr>
+        <th width="100"><label class="label">编号</label></th>
+        <td>{$info['bianhao']}</td>
+    </tr>
+    <tr>
+        <th width="100"><label class="label">作品图</label></th>
+        <td><img src="{:thumb($info['work_thumb'])}" alt="" <notempty name="info['work_thumb']">width="500"</notempty></td>
+    </tr>
+     <tr>
+        <th width="100"><label class="label">证书一</label></th>
+        <td><img src="{:thumb($info['work_diploma1'])}" alt="" <notempty name="info['work_diploma1']">width="500"</notempty></td>
+    </tr>
+     <tr>
+        <th width="100"><label class="label">证书二</label></th>
+        <td><img src="{:thumb($info['work_diploma2'])}" alt="" <notempty name="info['work_diploma2']">width="500"</notempty></td>
+    </tr>
+     <tr>
+        <th width="100"><label class="label">证书三</label></th>
+        <td><img src="{:thumb($info['work_diploma3'])}" alt="" <notempty name="info['work_diploma3']">width="500"</notempty></td>
+    </tr>
+    
+    </tbody>
+    </table>
+
+
+</form>
+</div>
+<script type="text/javascript">
+$(function(){
+    //表单验证
+     $(".myform").Validform({
+      tiptype:1
+      });
+});
+</script>
+ <script type="text/javascript">
+  var birthday = {
+      elem: '#birthday',
+      format: 'YYYY年MM月DD日',
+      min: '1900-01-01', //设定最小日期为当前日期
+      max: '2099-06-16', //最大日期
+      istime: false,
+      istoday: false,
+      choose: function(datas){
+           end.min = datas; //开始日选好后，重置结束日的最小日期
+           end.start = datas //将结束日的初始值设定为开始日
+      }
+  };
+  laydate(birthday);
+</script>
+</body>
+</html>

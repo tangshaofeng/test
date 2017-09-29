@@ -1,0 +1,19 @@
+<extend name="Public/main" />
+<block name="main">
+<div class="slide-page">
+    <img src="{:thumb($topinfo['image'],1920,400)}">
+</div>
+<div class="w container">
+    <div class="h2_ze"><h2>{$category['title']}</h2><small>{$category['english']}</small></div>
+    <ul class="service-ul">
+    <volist name="lists" id="vo">
+        <li>
+            <a href="{$vo['url']}" title="{$vo['title']}"><img src="{:thumb($vo['thumb'],357,280)}" alt="{$vo['title']}"></a>
+            <span><a href="{$vo['url']}">{$vo['title']}</a></span>
+            <p>{:msubstr($vo['description'],0,48)}</p>
+        </li>
+    </volist>
+    </ul>
+</div>
+<div class="clh20"></div>
+</block>

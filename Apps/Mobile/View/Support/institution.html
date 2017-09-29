@@ -1,0 +1,25 @@
+<extend name="Public/main" />
+<block name="main">
+<div class="crumbs2">{:catpos($catid)}</div>
+<div class="category_tree pdlr15">
+    <div class="catename">{$topinfo['title']}</div>
+    <ul>
+       <volist name=":get_category($top_catid)" id="vo">
+            <li <eq name="vo['id']" value="$catid">class="active"</eq>><a href="{$vo['url']}">{$vo['title']}</a></li>
+        </volist>
+    </ul>
+</div>
+<div class="h4_bt"><span>{$category['title']}</span></div>
+<div class="support-box">
+
+  <div class="h1_en">CUSTOMER SERVICE</div>
+  <div class="bar"></div>
+  <p>北京中智国华信息技术有限公司致力于为广大营销人客户<br/>提供优质的产品和卓越服务</p>
+  <div class="institution_img">
+  <volist name="ads_fwzd" id="vo">
+  <span><img src="{:thumb($vo['image'],190,190)}" alt="{$vo['alt']}"><br/>{$vo['title']}</span>
+  </volist>
+  </div>
+</div>
+<div class="clear"></div>
+</block>

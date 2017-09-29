@@ -1,0 +1,52 @@
+<extend name="Public/main" />
+<block name="main">
+<div class="slide-page">
+    <img src="{:thumb($topinfo['image'],1920,400)}">
+</div>
+<div class="w container product-section">
+<div class="pro_art">
+    <div class="h2_ze"><h2>产品资讯</h2><small>Information</small></div>
+    <ul>
+    <volist name="article" id="vo">
+        <if condition="$i elt 2"><li class="recom">
+            <div class="left"><a href="{$vo['url']}">{$vo['title']} <img src="__HOME__images/img1.gif" alt=""></a><p>{$vo['description']}</p><a href="{$vo['url']}"  class="more">更多>></a></div>
+            <div class="right"><a href="{$vo['url']}"><img src="{:thumb($vo['thumb'],250,182)}" alt="{$vo['title']}"></a></div>
+        </li>
+    <else/>
+        <li><a href="{$vo['url']}"> >>{$vo['title']}</a><span>{:date('m/d',$vo['create_time'])}</span></li>
+        </if>
+    </volist>
+    </ul>
+</div>
+<div class="clear"></div>
+<div class="product-box">
+    <div class="h2_ze"><h2>产品中心</h2><small>Product</small></div>
+    <ul>
+    <volist name="product_category" id="vo" key="k">
+    <neq name="vo['id']" value="8">
+        <li>
+            <div class="img">
+            <eq name="k" value="1"><img src="__HOME__images/pro_ico.png" alt="{$vo['title']}"></eq>
+            <eq name="k" value="2"><img src="__HOME__images/pro_ico2.png" alt="{$vo['title']}"></eq>
+            <eq name="k" value="3"><img src="__HOME__images/pro_ico4.png" alt="{$vo['title']}"></eq>
+            <eq name="k" value="4"><img src="__HOME__images/pro_ico1.png" alt="{$vo['title']}"></eq>
+            <eq name="k" value="5"><img src="__HOME__images/pro_ico3.png" alt="{$vo['title']}"></eq>
+            <eq name="k" value="6"><img src="__HOME__images/pro_ico5.png" alt="{$vo['title']}"></eq>
+            </div>
+            <div class="title"><span>{$vo['title']}</span>
+                <dl>
+                <volist name="vo['childs']" id="val">
+                    <dt><a href="{$val['url']}">· {$val['title']}</a></dt>
+                </volist>
+                </dl>
+            </div>
+            <div class="more"><a href="{$vo['url']}">更多>></a></div>
+        </li>
+    </neq>
+    </volist>
+    </ul>
+    <div class="clear"></div>
+</div>
+</div>
+<div class="clh20"></div>
+</block>

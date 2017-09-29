@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?>文件只有部分被上传！

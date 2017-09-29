@@ -1,0 +1,28 @@
+<extend name="Public/main" />
+<block name="main">
+<div class="crumbs2">{:catpos($catid)}</div>
+<div class="category_tree pdlr15">
+    <div class="catename">{$topinfo['title']}</div>
+    <ul>
+       <volist name=":get_category($top_catid)" id="vo">
+            <li <eq name="vo['id']" value="$catid">class="active"</eq>><a href="{$vo['url']}">{$vo['title']}</a></li>
+        </volist>
+    </ul>
+</div>
+<div class="h4_bt"><span>{$category['title']}</span></div>
+<div class="support_box">
+    <div class="contact">
+        <p class="p1">有问题可以查看我们的帮助文档知识库，或打电话联系我们。您也可以提交一个问题报告和联系方式我们来处理，并和服务人员协作解决。</p>
+        <div class="p2">
+          <dl>
+            <dt>联系电话：010-57016405</dt>
+            <dt>联系人：张先生</dt>
+            <dt>联系邮箱：2528696206@qq.com</dt>
+            <dt>公司传真：010-57016405</dt>
+            <dt>邮政编码：100176</dt>
+            <dt>公司地址：北京市朝阳区鸿博家园2C-5 二单元703室</dt>
+          </dl>
+        </div>
+    </div>
+</div>
+</block>
